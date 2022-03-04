@@ -15,11 +15,11 @@ E:/WorkSpace/Portfolio/Game/ClickToEarn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61926
+49479
 Successfully changed project path to: E:/WorkSpace/Portfolio/Game/ClickToEarn
 E:/WorkSpace/Portfolio/Game/ClickToEarn
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001138 seconds.
+Registered in 0.001167 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.518 seconds
+- Completed reload, in  0.685 seconds
 Domain Reload Profiling:
-	ReloadAssembly (518ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (410ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (509ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (156ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (201ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002580 seconds.
+Registered in 0.002588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  1.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1294ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (790ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (386ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.4 MB.
 System memory in use after: 98.5 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2637.
-Total: 2.819700 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.091600 ms MarkObjects: 2.458500 ms  DeleteObjects: 0.097400 ms)
+Total: 2.718700 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.347300 ms  DeleteObjects: 0.059300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,33 +131,545 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007992 seconds 
-  Import took 0.010977 seconds .
+  path: Assets/Shop
+  artifactKey: Guid(65b33382d4e169049a0bc8c516affd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop using Guid(65b33382d4e169049a0bc8c516affd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c15b52269361fe7b933aebd740f7b59') in 0.010183 seconds 
+  Import took 0.013164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.634333 seconds.
-  path: Assets/Media
-  artifactKey: Guid(f36d1baf974203f479e57e1be5bfa706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Media using Guid(f36d1baf974203f479e57e1be5bfa706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd651f51e36bd5a7db3dc1f2723675a') in 0.009156 seconds 
-  Import took 0.012568 seconds .
+  Time since last request: 51.385213 seconds.
+  path: Assets/Shop/Low Poly Houses Pack
+  artifactKey: Guid(a9bea4c510dbc324da64d65ae3327f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Low Poly Houses Pack using Guid(a9bea4c510dbc324da64d65ae3327f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7adfc74a08823a56dee3dbe396ba4fa') in 0.011038 seconds 
+  Import took 0.014639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.953499 seconds.
-  path: Assets/Sound
-  artifactKey: Guid(1be201819401cea4696ab41bf6568daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound using Guid(1be201819401cea4696ab41bf6568daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce75c8f832dbe887f52c88e4fa908acb') in 0.007720 seconds 
-  Import took 0.011092 seconds .
+  Time since last request: 43.791925 seconds.
+  path: Assets/Shop/HousePack
+  artifactKey: Guid(0385b21444a795d4897ded6320fb463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack using Guid(0385b21444a795d4897ded6320fb463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23529c21f3fd38ab916d92c257a143db') in 0.007212 seconds 
+  Import took 0.010548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.886312 seconds.
-  path: Assets/Script
-  artifactKey: Guid(edcf1563cb96ae9409eec045a984ed45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(edcf1563cb96ae9409eec045a984ed45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b11769dc08044eefe5a6889b451afa') in 0.006564 seconds 
-  Import took 0.009587 seconds .
+  Time since last request: 1.461814 seconds.
+  path: Assets/Shop/HousePack/Perfabs
+  artifactKey: Guid(1741548124859c9408289f43f009548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs using Guid(1741548124859c9408289f43f009548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4407924a145e3993ad364495c0fefbd') in 0.008596 seconds 
+  Import took 0.011804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115636 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House1.prefab
+  artifactKey: Guid(0021dc7ae6ca2cb4bb44c107245b122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House1.prefab using Guid(0021dc7ae6ca2cb4bb44c107245b122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f09c63780db67146a30008703dcf25') in 0.252280 seconds 
+  Import took 0.255890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House3.prefab
+  artifactKey: Guid(840209b60d092704bbca286c6c0ac931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House3.prefab using Guid(840209b60d092704bbca286c6c0ac931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a27a80b049c610789c7721f28a9289d') in 0.017604 seconds 
+  Import took 0.020949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House2.prefab
+  artifactKey: Guid(148c959f2024f81498bfe1a565c3a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House2.prefab using Guid(148c959f2024f81498bfe1a565c3a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df678c9d6a54ec31f69d89b61ca5615a') in 0.021392 seconds 
+  Import took 0.024927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House7.prefab
+  artifactKey: Guid(8e888a9b2caa8f34aa28745d02ea24fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House7.prefab using Guid(8e888a9b2caa8f34aa28745d02ea24fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b567754aaa188b56be16d324603f61') in 0.021167 seconds 
+  Import took 0.024471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House10.prefab
+  artifactKey: Guid(2f66f74f1d9a5ea48beb0036581bc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House10.prefab using Guid(2f66f74f1d9a5ea48beb0036581bc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22564db1c105d8cfa57ded647398e384') in 0.018123 seconds 
+  Import took 0.023582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House6.prefab
+  artifactKey: Guid(a5300953c6462ed479f4e71b69fb4c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House6.prefab using Guid(a5300953c6462ed479f4e71b69fb4c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9d5b5df9b891fc4928525ee049c7ff') in 0.019148 seconds 
+  Import took 0.022583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House8.prefab
+  artifactKey: Guid(84d816b90a9224a46a067fbdcdc7ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House8.prefab using Guid(84d816b90a9224a46a067fbdcdc7ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecf6ce875df60f899fee47fd0b4eb8f') in 0.021750 seconds 
+  Import took 0.025136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House4.prefab
+  artifactKey: Guid(97686e80dd94cb04c9b02de1bf64121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House4.prefab using Guid(97686e80dd94cb04c9b02de1bf64121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422298f1db3deac8716fd8054d2a4c46') in 0.019050 seconds 
+  Import took 0.022796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House9.prefab
+  artifactKey: Guid(0ee3f20eba7c1414a8508d1965a6706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House9.prefab using Guid(0ee3f20eba7c1414a8508d1965a6706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a1a02ef1a135b793539a76c2c1c335') in 0.017095 seconds 
+  Import took 0.020687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Shop/HousePack/Perfabs/House5.prefab
+  artifactKey: Guid(9177f38d5b69e5c4a9ff22283c83fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/HousePack/Perfabs/House5.prefab using Guid(9177f38d5b69e5c4a9ff22283c83fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac029b8f0ad68938fbd5451642819df8') in 0.022602 seconds 
+  Import took 0.026454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.288379 seconds.
+  path: Assets/Shop/House
+  artifactKey: Guid(3e2bd5f07f3b94148945a10d7bbc090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/House using Guid(3e2bd5f07f3b94148945a10d7bbc090d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ef84ab8a978ff447d1ad19cfd4f0b0') in 0.005512 seconds 
+  Import took 0.009073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.018231 seconds.
+  path: Assets/Shop/Free 2D Adventure Beach Pack
+  artifactKey: Guid(9e77e05e4dc62964191c079255db0f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Free 2D Adventure Beach Pack using Guid(9e77e05e4dc62964191c079255db0f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee22e76725f949da2e32b40e8b0d11d') in 0.006676 seconds 
+  Import took 0.010022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.160307 seconds.
+  path: Assets/Shop/UK Terraced Houses FREE
+  artifactKey: Guid(1b0e2fb4cc5484d4c84ebe9c8beae049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/UK Terraced Houses FREE using Guid(1b0e2fb4cc5484d4c84ebe9c8beae049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792139618ac5ac30381ab64031a2e985') in 0.017664 seconds 
+  Import took 0.029398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.523755 seconds.
+  path: Assets/Shop/Background
+  artifactKey: Guid(294c4602b2e46c44ca977f92fb6897a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background using Guid(294c4602b2e46c44ca977f92fb6897a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c945843ea6e1b84c727b8f4821fe43') in 0.006546 seconds 
+  Import took 0.013024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.629745 seconds.
+  path: Assets/Shop/Painted HQ 2D Forest Medieval Background
+  artifactKey: Guid(9eda5a9632013404283cac82e4d8ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Painted HQ 2D Forest Medieval Background using Guid(9eda5a9632013404283cac82e4d8ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c7f604fa5757b0f1727a0d9b0de39a') in 0.007147 seconds 
+  Import took 0.010629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.532089 seconds.
+  path: Assets/Shop/Weapon
+  artifactKey: Guid(4f12be37a36462a4db1fa7d8279e5469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon using Guid(4f12be37a36462a4db1fa7d8279e5469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47419d3354b47e5a72154bafd3e090b5') in 0.006357 seconds 
+  Import took 0.046936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 271.526105 seconds.
+  path: Assets/Shop/Weapon/Blink
+  artifactKey: Guid(6766415ae710708479571c74c4b18f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink using Guid(6766415ae710708479571c74c4b18f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c82e9330681b48dfad20f4970b123c') in 0.008536 seconds 
+  Import took 0.012680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612523 seconds.
+  path: Assets/Shop/Weapon/Blink/Art
+  artifactKey: Guid(025e605853e13e143914c6df06ec479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink/Art using Guid(025e605853e13e143914c6df06ec479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af82297b157c0447f7a0b77c686b352e') in 0.005733 seconds 
+  Import took 0.008960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.883379 seconds.
+  path: Assets/Shop/Weapon/Blink/Art/Weapons
+  artifactKey: Guid(f21ec5171a04dfe44812ec89a7cd4b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink/Art/Weapons using Guid(f21ec5171a04dfe44812ec89a7cd4b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf85633434d8ddec2f73b7f8c0365b37') in 0.006533 seconds 
+  Import took 0.011059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841569 seconds.
+  path: Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly
+  artifactKey: Guid(996ef57c16d97ff4ab6370a4a64be983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly using Guid(996ef57c16d97ff4ab6370a4a64be983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db7df112ef21a6bee853e83315344ce') in 0.006743 seconds 
+  Import took 0.010515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617410 seconds.
+  path: Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly/Demo
+  artifactKey: Guid(560894a513308a04a886ded69af3be20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly/Demo using Guid(560894a513308a04a886ded69af3be20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e34fdd1036b3de18fe5e3c6268bd67') in 0.006062 seconds 
+  Import took 0.012738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.465851 seconds.
+  path: Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly/FreeRPGWeapons
+  artifactKey: Guid(db3ff5d62edca61478abb6ebd20ad832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly/FreeRPGWeapons using Guid(db3ff5d62edca61478abb6ebd20ad832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f641861d8e893b5a881320c3998cf283') in 0.006300 seconds 
+  Import took 0.009580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112451 seconds.
+  path: Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Ground.mat
+  artifactKey: Guid(c4e4e7a36508a9d47a9a4e4d04e38479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Weapon/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Ground.mat using Guid(c4e4e7a36508a9d47a9a4e4d04e38479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d663c1336e03401a1ae5a45b5c3caa4') in 0.180792 seconds 
+  Import took 0.184313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.604626 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds
+  artifactKey: Guid(ee470ba69cfab644c8dbd5054d6230bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds using Guid(ee470ba69cfab644c8dbd5054d6230bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358616a6036af8ec2614825bef863aa5') in 0.007053 seconds 
+  Import took 0.011444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095431 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png
+  artifactKey: Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png using Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072301f6c6d090ce906fe22beefb0255') in 0.079129 seconds 
+  Import took 0.082605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png
+  artifactKey: Guid(4c1e199e844355f4eb3e54698bc734a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png using Guid(4c1e199e844355f4eb3e54698bc734a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f3f68ce502acdeebd1ec6e6ccc39de') in 0.012676 seconds 
+  Import took 0.019341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/sea.png
+  artifactKey: Guid(4e58f37568590424c84e23ed57de844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/sea.png using Guid(4e58f37568590424c84e23ed57de844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3431b48922aef27255f51935c16b765') in 0.022131 seconds 
+  Import took 0.025341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png
+  artifactKey: Guid(5d538a12cf3065a4e95980515de57a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png using Guid(5d538a12cf3065a4e95980515de57a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af7dd69697030f81a3891c86dfdd3b') in 0.033177 seconds 
+  Import took 0.036853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-mountain-01.png
+  artifactKey: Guid(0642ff67fd5a90d4296a4f1f021b3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-mountain-01.png using Guid(0642ff67fd5a90d4296a4f1f021b3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d24a40b8c05d5fedc3b4af468ba408') in 0.021557 seconds 
+  Import took 0.025041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-sky.png
+  artifactKey: Guid(36af45f817607e24a8da35618654b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/day-backgrounds/beach-sky.png using Guid(36af45f817607e24a8da35618654b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54145df85ca409f72cd1c66dba49e9c1') in 0.013331 seconds 
+  Import took 0.016364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.183754 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/Example
+  artifactKey: Guid(54127df79e3bb5c4ab31721097fc1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/Example using Guid(54127df79e3bb5c4ab31721097fc1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f1b7f07184d091bae45d3bef02c5b') in 0.007330 seconds 
+  Import took 0.010807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.880878 seconds.
+  path: Assets/Shop/Background/Free 2D Adventure Beach Pack/Example/Example.unity
+  artifactKey: Guid(f3afbda7d8a7dae43880676326c10922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Free 2D Adventure Beach Pack/Example/Example.unity using Guid(f3afbda7d8a7dae43880676326c10922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8647e61af75f2f52d3a6ed8c76eb7b') in 0.005783 seconds 
+  Import took 0.009105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.078831 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/Examples
+  artifactKey: Guid(7a5ecea6fea8ed342a104305af699a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/Examples using Guid(7a5ecea6fea8ed342a104305af699a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd1e9cdb5bc6ebc3b5865115c763018') in 0.008514 seconds 
+  Import took 0.012278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.281211 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/evening
+  artifactKey: Guid(3e873d0fc06f8ca4a99b2323fdbf7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/evening using Guid(3e873d0fc06f8ca4a99b2323fdbf7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d999c4fd85625eeda539396fe569523') in 0.005169 seconds 
+  Import took 0.008485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046447 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night
+  artifactKey: Guid(896d4ab34cd92cf49b59e456191e12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night using Guid(896d4ab34cd92cf49b59e456191e12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44361af6ce22e1e63b40bbbb5460c333') in 0.006298 seconds 
+  Import took 0.017595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100368 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/cloud01.png
+  artifactKey: Guid(18ad3666f05b674499b413025f1a4227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/cloud01.png using Guid(18ad3666f05b674499b413025f1a4227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df6ee95cb246a9bf86fde0510b9ace9') in 0.018637 seconds 
+  Import took 0.022413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/cloud03.png
+  artifactKey: Guid(e73463d1099f91b4ba8e31b9c3175996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/cloud03.png using Guid(e73463d1099f91b4ba8e31b9c3175996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e8fab4c6e8bfe1540a2ff540ca1ae5') in 0.015277 seconds 
+  Import took 0.018775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/cloud02.png
+  artifactKey: Guid(cb4ab5a5300dcf24eaf0658a4c7dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/cloud02.png using Guid(cb4ab5a5300dcf24eaf0658a4c7dff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74d4790ab63290c9290f79e44fccacc') in 0.022525 seconds 
+  Import took 0.025816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/sky.png
+  artifactKey: Guid(fd8e132a64c68724e83ef37f68f9c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/sky.png using Guid(fd8e132a64c68724e83ef37f68f9c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717d359fbac884c9069d3f1d7f9b2ae2') in 0.015085 seconds 
+  Import took 0.018376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/mountain02.png
+  artifactKey: Guid(4f896d7c37e46c34c9b57f2e7fed52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/mountain02.png using Guid(4f896d7c37e46c34c9b57f2e7fed52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dfaa673c2e3bf16084c0b9225efecd') in 0.015883 seconds 
+  Import took 0.026568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/mountain01.png
+  artifactKey: Guid(0d08b6928114d47439546a398b35c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/night/mountain01.png using Guid(0d08b6928114d47439546a398b35c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcefac77ab088e418090f7592a7fbe38') in 0.018105 seconds 
+  Import took 0.021517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.474149 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/Examples/Scene.unity
+  artifactKey: Guid(1ca1e548c6c0a7940acee6009006bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/Examples/Scene.unity using Guid(1ca1e548c6c0a7940acee6009006bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73533bec61b3bc99ae01465b07933a77') in 0.006164 seconds 
+  Import took 0.018819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.313638 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day
+  artifactKey: Guid(be61884b24a259649bc5e023ef71227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day using Guid(be61884b24a259649bc5e023ef71227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c81aa7d22bc14f018d6f7b9851b7887') in 0.014001 seconds 
+  Import took 0.017577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088285 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/cloud01.png
+  artifactKey: Guid(d083d3f17cd7d0b4baedc62d855471c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/cloud01.png using Guid(d083d3f17cd7d0b4baedc62d855471c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7561eaf5a25b65ea739f780eb7e17ab7') in 0.013725 seconds 
+  Import took 0.017134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/mountain02.png
+  artifactKey: Guid(bf66f81ff5312b0468db46a55bc8b271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/mountain02.png using Guid(bf66f81ff5312b0468db46a55bc8b271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fff7cca1f52a2fc74ae6374785f20c4') in 0.022697 seconds 
+  Import took 0.026301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/cloud02.png
+  artifactKey: Guid(5f9e50fddcbd27747be4ff005e67979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/cloud02.png using Guid(5f9e50fddcbd27747be4ff005e67979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcd5d717370258ca486e1634232db29') in 0.018419 seconds 
+  Import took 0.023432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/cloud03.png
+  artifactKey: Guid(b2e7ab64fd7eb364ab7451d09f294367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/cloud03.png using Guid(b2e7ab64fd7eb364ab7451d09f294367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0670ebaa2debb70ec27d13becfa3619') in 0.015296 seconds 
+  Import took 0.018367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/mountain01.png
+  artifactKey: Guid(63bd50a6c3fd26b439c10e599e94b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/mountain01.png using Guid(63bd50a6c3fd26b439c10e599e94b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d1f1e583ebab53b03d701eae1e8fb6') in 0.019845 seconds 
+  Import took 0.023124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/sky.png
+  artifactKey: Guid(70e32caafad415e489dea7aa867977e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shop/Background/Painted HQ 2D Forest Medieval Background/day/sky.png using Guid(70e32caafad415e489dea7aa867977e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238d9fbe014e3369b0a53768e0c9e2b') in 0.011505 seconds 
+  Import took 0.023252 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003033 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.478 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1479ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1239ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 5.684600 ms (FindLiveObjects: 0.170900 ms CreateObjectMapping: 0.096300 ms MarkObjects: 5.395700 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.578 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1309ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 3.423700 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.270100 ms MarkObjects: 2.880000 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.941013 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af71c23b9636aa0c6c8d8481469702da') in 0.019672 seconds 
+  Import took 0.023102 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
