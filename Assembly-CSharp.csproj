@@ -57,7 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Shop\Background\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
+    <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
+    <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
     <Compile Include="Assets\Shop\Background\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
+    <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
+    <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shop\Texture\Five Seamless Tileable Ground Textures\read me.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
