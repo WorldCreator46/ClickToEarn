@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class Earn : MonoBehaviour
 {
-    public int money = 0;
     public void TouchToEarn()
     {
-        money++;
+
+    }
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+
+        }
     }
 }
