@@ -10,9 +10,6 @@ public class Earn : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
 
-        }
     }
 }
