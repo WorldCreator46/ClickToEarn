@@ -660,6 +660,7 @@ GameObject:
   - component: {fileID: 763743041}
   - component: {fileID: 763743040}
   - component: {fileID: 763743039}
+  - component: {fileID: 763743042}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -715,6 +716,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &763743042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763743038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc09a564494aef4c8eff9122578e1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &936480076
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +952,7 @@ GameObject:
   - component: {fileID: 1224063909}
   - component: {fileID: 1224063911}
   - component: {fileID: 1224063910}
+  - component: {fileID: 1224063912}
   m_Layer: 5
   m_Name: MoneyDisplay
   m_TagString: Untagged
@@ -1029,6 +1043,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1224063912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224063908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08974780780c4d04f9fde758a6fa5c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1243886701
 GameObject:
   m_ObjectHideFlags: 0

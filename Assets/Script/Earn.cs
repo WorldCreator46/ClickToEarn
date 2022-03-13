@@ -7,7 +7,9 @@ public class Earn : MonoBehaviour
 {
     public void TouchToEarn()
     {
-        Debug.Log(MoneyCalculation.Compress(BigInteger.Parse("17171")));
+        Debug.Log(Property.GetProperty());
+        Property.SetPropert("");
+        Debug.Log(Property.GetProperty());
     }
     private void Update()
     {
