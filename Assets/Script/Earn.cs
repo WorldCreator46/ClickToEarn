@@ -7,9 +7,7 @@ public class Earn : MonoBehaviour
 {
     public void TouchToEarn()
     {
-        Debug.Log(Property.GetProperty());
-        Property.SetPropert("");
-        Debug.Log(Property.GetProperty());
+
     }
     private void Update()
     {

@@ -1,31 +1,29 @@
 using System.Numerics;
 using UnityEngine;
+using System.Collections.Generic;
+using System.Text;
 
 public class MoneyCalculation : MonoBehaviour
 {
-    static readonly string[] Units = {
-        "", "K", "M", "G", "T", "P", "E", "Z", "Y" ,
-        "KY", "MY", "GY", "TY", "PY", "EY", "ZY", "YY",
-        "KYY", "MYY", "GYY", "TYY", "PYY", "EYY", "ZYY", "YYY",
-        "KYYY", "MYYY", "GYYY", "TYYY", "PYYY", "EYYY", "ZYYY", "YYYY",
-        "KYYYY", "MYYYY", "GYYYY", "TYYYY", "PYYYY", "EYYYY", "ZYYYY", "YYYYY",
-        "KYYYYY", "MYYYYY", "GYYYYY", "TYYYYY", "PYYYYY", "EYYYYY", "ZYYYYY", "YYYYYY",
-        "KYYYYYY", "MYYYYYY", "GYYYYYY", "TYYYYYY", "PYYYYYY", "EYYYYYY", "ZYYYYYY", "YYYYYYY",
-        "KYYYYYYY", "MYYYYYYY", "GYYYYYYY", "TYYYYYYY", "PYYYYYYY", "EYYYYYYY", "ZYYYYYYY", "YYYYYYYY",
-        "KYYYYYYYY", "MYYYYYYYY", "GYYYYYYYY", "TYYYYYYYY", "PYYYYYYYY", "EYYYYYYYY", "ZYYYYYYYY", "YYYYYYYYY",
-        "KYYYYYYYYY", "MYYYYYYYYY", "GYYYYYYYYY", "TYYYYYYYYY", "PYYYYYYYYY", "EYYYYYYYYY", "ZYYYYYYYYY", "YYYYYYYYYY" };
+    static readonly char[] Units = {'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
     public static string Compress(BigInteger _Money)
     {
         BigInteger Quotient = _Money;
-        int Sequence = 0;
-        for(Sequence = 0; Sequence < Units.Length; Sequence++)
+        Dictionary<int, char> TempUnit = new Dictionary<int, char>();
+        StringBuilder Unit = new StringBuilder();
+        for (int Sequence = 0; Sequence >= 0; Sequence++)
         {
             if (-1 == BigInteger.Compare(Quotient, BigInteger.Parse("1000")))
             {
                 break;
             }
+            TempUnit[Sequence / 8] = Units[Sequence % 8];
             Quotient = BigInteger.Divide(Quotient, BigInteger.Parse("1000"));
         }
-        return Quotient.ToString()+Units[Sequence];
+        for(int Sequence = TempUnit.Count-1; Sequence >= 0; Sequence--)
+        {
+            Unit.Append(TempUnit[Sequence]);
+        }
+        return Quotient.ToString() + Unit.ToString();
     }
 }

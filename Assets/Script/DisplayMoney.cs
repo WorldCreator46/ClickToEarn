@@ -10,6 +10,6 @@ public class DisplayMoney : MonoBehaviour
     }
     void Update()
     {
-        tm.text = MoneyCalculation.Compress(BigInteger.Parse("1"));
+        tm.text = MoneyCalculation.Compress(BigInteger.Parse("10000000"));
     }
 }
