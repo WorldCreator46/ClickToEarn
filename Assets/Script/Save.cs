@@ -8,10 +8,19 @@ using Newtonsoft.Json;
 public class Save : MonoBehaviour
 {
     public static char[] RandomLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".ToCharArray();
-    private string password = "";
+    static string password = "";
+    private void Start()
+    {
+        //LoadData();
+    }
     void SaveData()
     {
-
+        PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
+        PlayerPrefs.Save();
+    }
+    void LoadData()
+    {
+        Property.SetPropert(PlayerPrefs.GetString("Property"));
     }
     public static string ExtractLetters()
     {
