@@ -9,6 +9,7 @@ public class MoneyCalculation : MonoBehaviour
     public static string Compress(BigInteger _Money)
     {
         BigInteger Quotient = _Money;
+        BigInteger Remainder = BigInteger.Zero;
         Dictionary<int, char> TempUnit = new Dictionary<int, char>();
         for (int Sequence = 0; Sequence >= 0; Sequence++)
         {
@@ -17,7 +18,7 @@ public class MoneyCalculation : MonoBehaviour
                 break;
             }
             TempUnit[Sequence / 8] = Units[Sequence % 8];
-            Quotient = BigInteger.Divide(Quotient, BigInteger.Parse("1000"));
+            Quotient = BigInteger.DivRem(Quotient, BigInteger.Parse("1000"), out Remainder);
         }
 
         string Unit;
@@ -37,13 +38,6 @@ public class MoneyCalculation : MonoBehaviour
         {
             Unit = TempUnit[0].ToString();
         }
-        return Quotient.ToString() + Unit;
-        /*
-        StringBuilder Unit = new StringBuilder();
-        for(int Sequence = TempUnit.Count-1; Sequence >= 0; Sequence--)
-        {
-            Unit.Append(TempUnit[Sequence]);
-        }
-        return Quotient.ToString() + Unit.ToString();*/
+        return $"{Quotient}.{Remainder}{Unit}";
     }
 }

@@ -11,16 +11,36 @@ public class Save : MonoBehaviour
     static string password = "";
     private void Start()
     {
-        //LoadData();
+        LoadData();
     }
     void SaveData()
     {
+        PlayerPrefs.SetString("password", password);
         PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
+        PlayerPrefs.SetString("Performance", Encrypt(Performance.GetPerformance()));
         PlayerPrefs.Save();
     }
     void LoadData()
     {
-        Property.SetPropert(PlayerPrefs.GetString("Property"));
+        if (CheckData())
+        {
+            password = PlayerPrefs.GetString("password");
+            Property.SetPropert(Decrypt(PlayerPrefs.GetString("Property")));
+            Performance.SetPerformance(Decrypt(PlayerPrefs.GetString("Performance")));
+        }
+        else
+        {
+            password = ExtractLetters();
+        }
+    }
+    bool CheckData()
+    {
+        bool check = false;
+        if (PlayerPrefs.HasKey("password") && PlayerPrefs.HasKey("Property") && PlayerPrefs.HasKey("Performance"))
+        {
+            check = true;
+        }
+        return check;
     }
     public static string ExtractLetters()
     {
