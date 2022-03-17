@@ -7,11 +7,16 @@ using Newtonsoft.Json;
 
 public class Save : MonoBehaviour
 {
-    public static char[] RandomLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".ToCharArray();
+    public static char[] RandomLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=".ToCharArray();
     static string password = "";
     private void Start()
     {
         LoadData();
+    }
+    void ResetData()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
     }
     void SaveData()
     {
