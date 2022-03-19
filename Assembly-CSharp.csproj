@@ -54,24 +54,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\WorkSpace\Portfolio\Game\ClickToEarn\Assets\Script\Package\Newtonsoft.Json.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Save.cs" />
     <Compile Include="Assets\Shop\Background\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
     <Compile Include="Assets\Script\Performance.cs" />
     <Compile Include="Assets\Script\MoneyCalculation.cs" />
     <Compile Include="Assets\Script\CoinPrefabCreator.cs" />
+    <Compile Include="Assets\Script\DisplayMoney.cs" />
     <Compile Include="Assets\Script\Earn.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
+    <Compile Include="Assets\Script\Property.cs" />
     <Compile Include="Assets\Script\Upgrade.cs" />
     <Compile Include="Assets\Script\MoneyAddText.cs" />
     <Compile Include="Assets\Shop\Background\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
-    <Compile Include="Assets\Script\DisplayMoney.cs" />
-    <Compile Include="Assets\Script\Property.cs" />
-    <Compile Include="Assets\Script\Save.cs" />
+    <Compile Include="Assets\Script\MoveScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shop\Texture\Five Seamless Tileable Ground Textures\read me.txt" />
