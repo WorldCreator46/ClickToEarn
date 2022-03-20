@@ -15,11 +15,11 @@ E:/WorkSpace/Portfolio/Game/ClickToEarn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51281
+61499
 Successfully changed project path to: E:/WorkSpace/Portfolio/Game/ClickToEarn
 E:/WorkSpace/Portfolio/Game/ClickToEarn
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001156 seconds.
+Registered in 0.001129 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.584 seconds
+- Completed reload, in  0.557 seconds
 Domain Reload Profiling:
-	ReloadAssembly (584ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (557ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (470ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (168ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003045 seconds.
+Registered in 0.003122 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
+- Completed reload, in  1.061 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1109ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (914ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (354ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2216 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.4 MB.
 System memory in use after: 100.5 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2663.
-Total: 2.949200 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.634600 ms  DeleteObjects: 0.065500 ms)
+Total: 2.586400 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.277000 ms  DeleteObjects: 0.059600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1345 +131,489 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0035.png
-  artifactKey: Guid(ae95fd7548ec8f549bd8724eb3e08dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0035.png using Guid(ae95fd7548ec8f549bd8724eb3e08dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7febdcf610c70d047661a07f99186d50') in 0.171548 seconds 
-  Import took 0.185699 seconds .
+  path: Assets/Media/Image
+  artifactKey: Guid(6e126c4b183b3a34fa77a53f4ab3cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Image using Guid(6e126c4b183b3a34fa77a53f4ab3cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767b8bdcdc0262ee9902c3e0d33acda6') in 0.029854 seconds 
+  Import took 0.042525 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0030.png
-  artifactKey: Guid(e684f9cb67da3cb4a8989e1da5810360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0030.png using Guid(e684f9cb67da3cb4a8989e1da5810360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b41563a41e9398a868d8dc0488a5c97') in 0.034983 seconds 
-  Import took 0.038594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0015.png
-  artifactKey: Guid(580b002ba7ad57745803c19603cfacd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0015.png using Guid(580b002ba7ad57745803c19603cfacd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9c4bca7dfd224fb82a36a4b29b7674') in 0.022923 seconds 
-  Import took 0.026545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0025.png
-  artifactKey: Guid(d5da43f8154f4424d9d2f83c93684408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0025.png using Guid(d5da43f8154f4424d9d2f83c93684408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a8e72a288e74f8a984c634d67ffa89') in 0.023760 seconds 
-  Import took 0.037001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0040.png
-  artifactKey: Guid(65cfe849b7aab5f4a85718f31da1c413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0040.png using Guid(65cfe849b7aab5f4a85718f31da1c413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9024e089006e677be4d37eccffdd9f59') in 0.026500 seconds 
-  Import took 0.046430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/Wood_Club_0000.png
-  artifactKey: Guid(033c9ee64488e1e49a621d1254fe4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/Wood_Club_0000.png using Guid(033c9ee64488e1e49a621d1254fe4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8a54ce436303eba23288426eac28c6') in 0.033091 seconds 
-  Import took 0.036404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_Start_0000.png
-  artifactKey: Guid(0350392910d4cfc43a78663c1b086e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_Start_0000.png using Guid(0350392910d4cfc43a78663c1b086e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88181a433818b6204a2a2acb2ff8ae2a') in 0.020509 seconds 
-  Import took 0.024064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Atlas_Water.png
-  artifactKey: Guid(0f4d5e3794a477340b9ba4a3fba5e960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Atlas_Water.png using Guid(0f4d5e3794a477340b9ba4a3fba5e960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c989ea394c96ec119b884d3b1d718957') in 0.084118 seconds 
-  Import took 0.087739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0020.png
-  artifactKey: Guid(b88828a1e6a14ae439eb05d5f935867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0020.png using Guid(b88828a1e6a14ae439eb05d5f935867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aeea5d099323774fc81fab4c3b0ea7') in 0.024269 seconds 
-  Import took 0.027665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.850138 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0004.png
-  artifactKey: Guid(724648edbbb9b0840b68fc28841c7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0004.png using Guid(724648edbbb9b0840b68fc28841c7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87beb376abf39039224f0a5ccd405da8') in 0.040895 seconds 
-  Import took 0.044946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0005.png
-  artifactKey: Guid(e1c3433346e761949844fe301ef673cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0005.png using Guid(e1c3433346e761949844fe301ef673cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a21cf0589c4ddcb0fda513c302b9b67') in 0.039779 seconds 
-  Import took 0.049671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0010.png
-  artifactKey: Guid(c47382c70676e104eb74a76fd281d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0010.png using Guid(c47382c70676e104eb74a76fd281d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb425483ba12889ce3f3616da1233b6') in 0.027592 seconds 
-  Import took 0.031054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0000.png
-  artifactKey: Guid(9672abf74cf8f464c8d5a6664d5eb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Waterfall_0000.png using Guid(9672abf74cf8f464c8d5a6664d5eb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef6327c6b53849cb7e68630a1857a8f') in 0.046346 seconds 
-  Import took 0.049797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0002.png
-  artifactKey: Guid(94737908389d5e14caaa08cf21848b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0002.png using Guid(94737908389d5e14caaa08cf21848b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c52563444d938d2ab4ff93b32b466bd') in 0.033303 seconds 
-  Import took 0.036815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0003.png
-  artifactKey: Guid(d7ed1a721f9605647804bd96ce0430fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0003.png using Guid(d7ed1a721f9605647804bd96ce0430fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8041e9fbd653e5cda0894ce5b603df') in 0.022883 seconds 
-  Import took 0.026497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0001.png
-  artifactKey: Guid(5e5b06fd262434d4bbd0558f58bd8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Water_Color_0001.png using Guid(5e5b06fd262434d4bbd0558f58bd8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110bcf5328334d09835b7166100c2c7b') in 0.024734 seconds 
-  Import took 0.027883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.432294 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0130.png
-  artifactKey: Guid(27441a48d988e074280828bd32e98afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0130.png using Guid(27441a48d988e074280828bd32e98afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb1b52e9228b1d89b8764631562c121') in 0.063905 seconds 
-  Import took 0.072250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0090.png
-  artifactKey: Guid(c1ac143b1339e5b4ca93aec0cc02936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0090.png using Guid(c1ac143b1339e5b4ca93aec0cc02936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb6e75f7ce7e41f34f71cc87c1e2afc') in 0.026797 seconds 
-  Import took 0.030315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0070.png
-  artifactKey: Guid(b468cf0ec220f0047a92e30f6728df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0070.png using Guid(b468cf0ec220f0047a92e30f6728df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5944abf5d62813fe1f4535780770fc1') in 0.023382 seconds 
-  Import took 0.026974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0120.png
-  artifactKey: Guid(a39ccdfa1b4e41a478d39ab553ad3351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0120.png using Guid(a39ccdfa1b4e41a478d39ab553ad3351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740261a224bf9f43a5cad78c01ca35b4') in 0.025092 seconds 
-  Import took 0.041369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0140.png
-  artifactKey: Guid(f2384a384e706cd41bde230d8d45b9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0140.png using Guid(f2384a384e706cd41bde230d8d45b9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497148564607048e77005c606ab7eb64') in 0.018350 seconds 
-  Import took 0.021832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0080.png
-  artifactKey: Guid(de9c87c5427fd0842b61be2a9f261884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0080.png using Guid(de9c87c5427fd0842b61be2a9f261884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acabed7992a8170d3ebddb2ad3d2beb8') in 0.022535 seconds 
-  Import took 0.026072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0100.png
-  artifactKey: Guid(f7c1b684cad97ca459340fb2772aa2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0100.png using Guid(f7c1b684cad97ca459340fb2772aa2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe438c9436a58f1de01dbe4c32127d62') in 0.027195 seconds 
-  Import took 0.030102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0110.png
-  artifactKey: Guid(37ffec5d2f4994049aea9efac806dde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0110.png using Guid(37ffec5d2f4994049aea9efac806dde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e34f9884ec3dce9e4f7f71b6be2bad9') in 0.048795 seconds 
-  Import took 0.052368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0060.png
-  artifactKey: Guid(dd398fe427b35c74582ee290b39128f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0060.png using Guid(dd398fe427b35c74582ee290b39128f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ccaa7879e227598a5eb4f92321b7c9') in 0.024072 seconds 
-  Import took 0.027443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0150.png
-  artifactKey: Guid(4dbba3fc72ca46e48a0bbcf853a486cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0150.png using Guid(4dbba3fc72ca46e48a0bbcf853a486cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9536e38a5d1a31f1e0c2552f8a5878') in 0.031439 seconds 
-  Import took 0.038886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217167 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0020.png
-  artifactKey: Guid(08b725c6c22a61548b05361e8fc3e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0020.png using Guid(08b725c6c22a61548b05361e8fc3e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310216b07186f2411a7a2c4e8b2fd1b7') in 0.064006 seconds 
-  Import took 0.068293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0050.png
-  artifactKey: Guid(a1665f684597ce54ca9e2da06d231634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0050.png using Guid(a1665f684597ce54ca9e2da06d231634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79998304ae7e8555d056a702e76fde6e') in 0.029520 seconds 
-  Import took 0.032578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0030.png
-  artifactKey: Guid(2a5f5b9d1f0ee9c4f988b3f82dd0d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0030.png using Guid(2a5f5b9d1f0ee9c4f988b3f82dd0d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cca744b11d3832b3a00dcd69428e4b6') in 0.031421 seconds 
-  Import took 0.034576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0010.png
-  artifactKey: Guid(b0c9e023412d53747b528d6c97933e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0010.png using Guid(b0c9e023412d53747b528d6c97933e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40c7121b7e477b847422a0705467034') in 0.026676 seconds 
-  Import took 0.029989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0000.png
-  artifactKey: Guid(d6c80920c1a073549b19757913211824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0000.png using Guid(d6c80920c1a073549b19757913211824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ec4232404ff46d7a1b05dcf38ace7f') in 0.039141 seconds 
-  Import took 0.042511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0040.png
-  artifactKey: Guid(83d9ca4163564a746a24b6aa861b6475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WALK/WALK_M_Human_0040.png using Guid(83d9ca4163564a746a24b6aa861b6475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e027428d2b9ac1202885c3d4c80ca721') in 0.023205 seconds 
-  Import took 0.036469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.827856 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0140.png
-  artifactKey: Guid(f9948f05725b3de4b928feee1d636db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0140.png using Guid(f9948f05725b3de4b928feee1d636db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f6992e242f5de186b550532a5d1b4e') in 0.032354 seconds 
-  Import took 0.035475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0150.png
-  artifactKey: Guid(0e0c88962bcee094c98375406bdc687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0150.png using Guid(0e0c88962bcee094c98375406bdc687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a06a3a5de3bc06af13201befb58dab2') in 0.022506 seconds 
-  Import took 0.025777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.248342 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0100.png
-  artifactKey: Guid(abdbf7128fed5154c936967b6817135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0100.png using Guid(abdbf7128fed5154c936967b6817135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7e32b6861e9e747ea939fead5275a8') in 0.031604 seconds 
-  Import took 0.035650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0110.png
-  artifactKey: Guid(fc98de8b3326ead439115e8ac0d99a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0110.png using Guid(fc98de8b3326ead439115e8ac0d99a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9657d9c95f76c6105a0bb067553b041d') in 0.023436 seconds 
-  Import took 0.033593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0080.png
-  artifactKey: Guid(99d62e9e8cf9e9f428e251da709e5a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0080.png using Guid(99d62e9e8cf9e9f428e251da709e5a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9e6b9a9ee9a8d6adf44ad40452a97') in 0.030627 seconds 
-  Import took 0.041651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0040.png
-  artifactKey: Guid(736cc754dc13bd6408ebec8b22d58e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0040.png using Guid(736cc754dc13bd6408ebec8b22d58e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bcf6749dde7a3af32c4eba29f5e991') in 0.020983 seconds 
-  Import took 0.024143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0120.png
-  artifactKey: Guid(43161ad4e39a57348ac0c64b3941704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0120.png using Guid(43161ad4e39a57348ac0c64b3941704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71da9ccd3c5efd6407ea270410d72d3') in 0.023400 seconds 
-  Import took 0.027217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0030.png
-  artifactKey: Guid(fb87313a4b25fa74b8c9ab8bea5fda4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0030.png using Guid(fb87313a4b25fa74b8c9ab8bea5fda4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5e52509043ef80b29f6e93c38ec3ac') in 0.025305 seconds 
-  Import took 0.032715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0090.png
-  artifactKey: Guid(7c0b69308b46fb44e82e87c879565bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0090.png using Guid(7c0b69308b46fb44e82e87c879565bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e9bffb84664e3200fd34b530088bc2') in 0.030016 seconds 
-  Import took 0.032858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0130.png
-  artifactKey: Guid(7472b4295e3f5354fa4ebe1884d7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0130.png using Guid(7472b4295e3f5354fa4ebe1884d7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9dc22f025731e94809afd9c86a5e6') in 0.082689 seconds 
-  Import took 0.086808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0060.png
-  artifactKey: Guid(5719bec116ae38240a76048407fb6742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0060.png using Guid(5719bec116ae38240a76048407fb6742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54ce723da6c115df44c28db8f026542') in 0.031768 seconds 
-  Import took 0.034935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0050.png
-  artifactKey: Guid(908fcdc432db5304090bf649f46acbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0050.png using Guid(908fcdc432db5304090bf649f46acbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008432b9235dede4f9f130d9cc687d66') in 0.024459 seconds 
-  Import took 0.109249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0020.png
-  artifactKey: Guid(911c97616e6ecf8449f3525548fd55e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0020.png using Guid(911c97616e6ecf8449f3525548fd55e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db66d8b7a0c8ef6f916dd5dd343236a') in 0.018632 seconds 
-  Import took 0.022428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0120.png
-  artifactKey: Guid(589ac7db04b46594285cbf558a5c1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0120.png using Guid(589ac7db04b46594285cbf558a5c1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5fec9a0765785494692743a30c09b') in 0.037542 seconds 
-  Import took 0.041014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0150.png
-  artifactKey: Guid(6164ee0b719a93042b54d050cdc9392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0150.png using Guid(6164ee0b719a93042b54d050cdc9392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa254e282426a1c4ff44ecd643369b') in 0.025733 seconds 
-  Import took 0.054786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0110.png
-  artifactKey: Guid(e3e8980a769310d4687b71f5e2d814cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0110.png using Guid(e3e8980a769310d4687b71f5e2d814cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94039c97e5fc735b3deb1f8c24bfeadd') in 0.019984 seconds 
-  Import took 0.023707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0140.png
-  artifactKey: Guid(98a7fc81744d13348af9633d612f47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0140.png using Guid(98a7fc81744d13348af9633d612f47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a1a6f854c27a2d762175a7a15810d4') in 0.020336 seconds 
-  Import took 0.023683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0000.png
-  artifactKey: Guid(03f897b681db29046a007c69d1448ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0000.png using Guid(03f897b681db29046a007c69d1448ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2808fb9bb8c4969a8799eba2eb2beb77') in 0.017000 seconds 
-  Import took 0.020754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0010.png
-  artifactKey: Guid(71489b08978ee7f4e9224c416d373b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0010.png using Guid(71489b08978ee7f4e9224c416d373b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934a566cde1e10bf83f850c25402edf1') in 0.030489 seconds 
-  Import took 0.033346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0130.png
-  artifactKey: Guid(d8555e7b19e4a5640a4ba65c2abbf559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0130.png using Guid(d8555e7b19e4a5640a4ba65c2abbf559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc239ceb195a63e708c3fddf4237e2d') in 0.023623 seconds 
-  Import took 0.063044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0070.png
-  artifactKey: Guid(87eb7e9996a1e8f44b54de3df48e3b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/THROW/THROW_M_Human_0070.png using Guid(87eb7e9996a1e8f44b54de3df48e3b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881daf5fd5491816ce5f15965942d770') in 0.052204 seconds 
-  Import took 0.055044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051499 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0080.png
-  artifactKey: Guid(81b5b524049a55e4db033536fcd05aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0080.png using Guid(81b5b524049a55e4db033536fcd05aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22c06faf88b88ed74153dce095738e4') in 0.047628 seconds 
-  Import took 0.050834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0100.png
-  artifactKey: Guid(dd258c245a6683b4ebe3e2aa77d5da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0100.png using Guid(dd258c245a6683b4ebe3e2aa77d5da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5c4f3b81cc3bca1606c3416cca6f6c') in 0.017238 seconds 
-  Import took 0.035482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0090.png
-  artifactKey: Guid(c9b3ef6f616ed284cbf1b218d00bebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0090.png using Guid(c9b3ef6f616ed284cbf1b218d00bebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e5dd7c7e7472f551b68bbd32061980') in 0.031930 seconds 
-  Import took 0.050492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.946508 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0040.png
-  artifactKey: Guid(80fcd21bad8225041baab3b8ed5f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0040.png using Guid(80fcd21bad8225041baab3b8ed5f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb523fa3a885ba9dcbdb6a2057a6b24') in 0.025276 seconds 
-  Import took 0.029479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0070.png
-  artifactKey: Guid(a9f1bc8ecb4ec494284daacdef474037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0070.png using Guid(a9f1bc8ecb4ec494284daacdef474037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2732aaddec8a0d0f1bfc68903a22dd8') in 0.042210 seconds 
-  Import took 0.056161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0010.png
-  artifactKey: Guid(78c287ba715503b45b9a9672e0169d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0010.png using Guid(78c287ba715503b45b9a9672e0169d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f113c12eb37bc15a3ad4991c0a737261') in 0.017458 seconds 
-  Import took 0.031614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0000.png
-  artifactKey: Guid(26b80ae2ae2330245a5797e5d18e08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0000.png using Guid(26b80ae2ae2330245a5797e5d18e08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593d8a9d89f7549b106a6869dce612b1') in 0.027420 seconds 
-  Import took 0.080170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0020.png
-  artifactKey: Guid(98b40f7b312ad6644b0461c4873097cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0020.png using Guid(98b40f7b312ad6644b0461c4873097cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2222dc7c138c71b0191469d9e082e0e9') in 0.074124 seconds 
-  Import took 0.077044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0060.png
-  artifactKey: Guid(b5470a7cb0aa2b544b04c46afe0a6732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0060.png using Guid(b5470a7cb0aa2b544b04c46afe0a6732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3580e793a3fecdd9927703046531d16b') in 0.027416 seconds 
-  Import took 0.042799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0050.png
-  artifactKey: Guid(4ad37b34989d4004faf7c31a8ea01106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0050.png using Guid(4ad37b34989d4004faf7c31a8ea01106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca04eac58497d810a899c10462b5cf86') in 0.032231 seconds 
-  Import took 0.035069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0030.png
-  artifactKey: Guid(bc89fd46ddf39094c91e46411a0e231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/STUN/STUN_M_Human_0030.png using Guid(bc89fd46ddf39094c91e46411a0e231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b521d1d9c68b56005d1c589e3c046f') in 0.031350 seconds 
-  Import took 0.034258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.240759 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/STONE_0000.png
-  artifactKey: Guid(ae9d1ecb9f42a814c9216f52a866c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/STONE_0000.png using Guid(ae9d1ecb9f42a814c9216f52a866c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857eec7036ca9049eefbe3341532f787') in 0.041975 seconds 
-  Import took 0.055952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.291943 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0130.png
-  artifactKey: Guid(c830206fa96e8434aa4310e4cc1d3955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0130.png using Guid(c830206fa96e8434aa4310e4cc1d3955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ecb04c1ed0150406af613b52efea01') in 0.044247 seconds 
-  Import took 0.051540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0140.png
-  artifactKey: Guid(d28eb8b66a4cee447b65423eb98e1e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0140.png using Guid(d28eb8b66a4cee447b65423eb98e1e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fac121f2355042e456a9e1049d238b1') in 0.030644 seconds 
-  Import took 0.033988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0150.png
-  artifactKey: Guid(ffcd1b39046c0c3448ba5606d82b1536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0150.png using Guid(ffcd1b39046c0c3448ba5606d82b1536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ac58595c17763b7e9a95e5ccf18d3c') in 0.041334 seconds 
-  Import took 0.044639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.355278 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0090.png
-  artifactKey: Guid(3eb80f16400187f4497ccd41f07b2122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0090.png using Guid(3eb80f16400187f4497ccd41f07b2122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce6b93c247ee683042093ebc7b77b1f') in 0.018940 seconds 
-  Import took 0.060303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0100.png
-  artifactKey: Guid(3976b0d8a82526a4c8ed4481ed07455c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0100.png using Guid(3976b0d8a82526a4c8ed4481ed07455c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48768259939dbd1d3af322e559d5e5b') in 0.037156 seconds 
-  Import took 0.040179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0120.png
-  artifactKey: Guid(72a22a42c5a5d914caba0cf3e7cbee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0120.png using Guid(72a22a42c5a5d914caba0cf3e7cbee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb6b9f5589378aa6ca7b3bc9eadbe25') in 0.037435 seconds 
-  Import took 0.040650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0030.png
-  artifactKey: Guid(8cbac9bdeeffa294bbeb2431f78b3c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0030.png using Guid(8cbac9bdeeffa294bbeb2431f78b3c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ebaaee9611be733230ce55e811def9') in 0.077524 seconds 
-  Import took 0.080653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0050.png
-  artifactKey: Guid(552fc7e6931510e48b454eeda9969f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0050.png using Guid(552fc7e6931510e48b454eeda9969f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141e85c69145c6897b654ecd304daa59') in 0.033289 seconds 
-  Import took 0.036632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0110.png
-  artifactKey: Guid(e2bd192da5fdbbd4c8824588ac91a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0110.png using Guid(e2bd192da5fdbbd4c8824588ac91a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137946ada7ce05b77a09a8ae341470c9') in 0.018737 seconds 
-  Import took 0.021856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0080.png
-  artifactKey: Guid(24397553f81a4c24a9a603cca9129848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0080.png using Guid(24397553f81a4c24a9a603cca9129848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c27d39afe359e3165d4e6336b977c0') in 0.026492 seconds 
-  Import took 0.115597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0060.png
-  artifactKey: Guid(b6deb6467c25c1945a14a6961059bf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0060.png using Guid(b6deb6467c25c1945a14a6961059bf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a940bbb8c4f67853c993bb9d8144d7') in 0.071704 seconds 
-  Import took 0.074663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0070.png
-  artifactKey: Guid(33fc27de53c910743b49165554c2ece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0070.png using Guid(33fc27de53c910743b49165554c2ece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426dd3a376636f3e6a627519adf9618d') in 0.029283 seconds 
-  Import took 0.066499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0040.png
-  artifactKey: Guid(3b7cf9485febdc040accfd1731a8b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0040.png using Guid(3b7cf9485febdc040accfd1731a8b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d1c18c7ac7623835342aeb9d1587f3') in 0.051203 seconds 
-  Import took 0.121597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0010.png
-  artifactKey: Guid(5ec77811eea11be4283a22c60891df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0010.png using Guid(5ec77811eea11be4283a22c60891df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7408e4fbef1c5f5cb8e5571edb521647') in 0.029734 seconds 
-  Import took 0.033261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0020.png
-  artifactKey: Guid(70a9467d4e22a4e4d959069825f8bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0020.png using Guid(70a9467d4e22a4e4d959069825f8bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f232512811355d64ee1fd65c6893235b') in 0.028993 seconds 
-  Import took 0.054862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0000.png
-  artifactKey: Guid(dbbdeea23408ffd4ead2fa6754992d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/RUN/RUN_M_Human_0000.png using Guid(dbbdeea23408ffd4ead2fa6754992d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8f26731003c5306461ac8fe856c03f') in 0.029619 seconds 
-  Import took 0.066960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.660744 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0130.png
-  artifactKey: Guid(df1c59d74db303a429ecaef795727136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0130.png using Guid(df1c59d74db303a429ecaef795727136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0443ae1bca347223b58a83f52f242f') in 0.029576 seconds 
-  Import took 0.033250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0100.png
-  artifactKey: Guid(23938dc0eb63d6c40b63a72eb1ffc16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0100.png using Guid(23938dc0eb63d6c40b63a72eb1ffc16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee185b2c4a58a7cb902873824a54c37') in 0.028916 seconds 
-  Import took 0.032066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0150.png
-  artifactKey: Guid(aafca607974d531498a706bee4f5abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0150.png using Guid(aafca607974d531498a706bee4f5abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a7a9b0e7e66459776b2831b2b7cd69') in 0.029921 seconds 
-  Import took 0.032843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0140.png
-  artifactKey: Guid(ed77082dd14c7bc41a84ae14ffdf5acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0140.png using Guid(ed77082dd14c7bc41a84ae14ffdf5acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ce78ea06943eac714ca654026a1645') in 0.024765 seconds 
-  Import took 0.028061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0110.png
-  artifactKey: Guid(e33e27d98d6440d4fb7a49facf399299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0110.png using Guid(e33e27d98d6440d4fb7a49facf399299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90356f02cede89bde596dffb95e83b36') in 0.029490 seconds 
-  Import took 0.032335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0120.png
-  artifactKey: Guid(d85d7880a0ac20a45bf3b0535e4738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0120.png using Guid(d85d7880a0ac20a45bf3b0535e4738ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8953c05d259c3e24e885cced5234ed2c') in 0.022117 seconds 
-  Import took 0.062154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.166065 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0060.png
-  artifactKey: Guid(f2b404e5d33471144bda1f9d836943fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0060.png using Guid(f2b404e5d33471144bda1f9d836943fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d90af8823ffb1c79e15ff163a89b896') in 0.045348 seconds 
-  Import took 0.079992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0020.png
-  artifactKey: Guid(43bfdead1c1ef5240a95522dfbe17ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0020.png using Guid(43bfdead1c1ef5240a95522dfbe17ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812b6fd361f4451f4a9fdb67edf85fe7') in 0.022126 seconds 
-  Import took 0.028696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0080.png
-  artifactKey: Guid(121f39b6266e2704aa843a92b42dbb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0080.png using Guid(121f39b6266e2704aa843a92b42dbb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81f6d5e1643b0c251b7923e56213395') in 0.031046 seconds 
-  Import took 0.052216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0010.png
-  artifactKey: Guid(25a40d21a5e720e4f8946a58d227c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0010.png using Guid(25a40d21a5e720e4f8946a58d227c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6fe16a87a53aaa0b477a82ba365af6') in 0.029675 seconds 
-  Import took 0.037683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0040.png
-  artifactKey: Guid(65828493a6a7ec34b9927d63e1954635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0040.png using Guid(65828493a6a7ec34b9927d63e1954635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73be68fa5216358bec97a280c9fde06c') in 0.022567 seconds 
-  Import took 0.055193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0070.png
-  artifactKey: Guid(a1f8d7c562fa4244184644cfbe6e00c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0070.png using Guid(a1f8d7c562fa4244184644cfbe6e00c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c80edfb72d6e22a8db40e5935c5b625') in 0.040813 seconds 
-  Import took 0.117637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0000.png
-  artifactKey: Guid(e4af4c09909159b40a00ff6d30ce7d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0000.png using Guid(e4af4c09909159b40a00ff6d30ce7d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2454fe4e7c7eaaebaefce7eb2ae64c') in 0.019429 seconds 
-  Import took 0.022649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0090.png
-  artifactKey: Guid(6e2e4ee075b12ff4aaf63355d348b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0090.png using Guid(6e2e4ee075b12ff4aaf63355d348b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191d68012e67a27f9cee19b7089234c0') in 0.018057 seconds 
-  Import took 0.042331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0050.png
-  artifactKey: Guid(e06529b76f4b39e47b0bddf50acff096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0050.png using Guid(e06529b76f4b39e47b0bddf50acff096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56b7ee1b9a83182ba92cdc64328e44c') in 0.018437 seconds 
-  Import took 0.021393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0030.png
-  artifactKey: Guid(ea1f3f5766800d841bc4ee867972cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/JUMP/JUMP_M_Human_0030.png using Guid(ea1f3f5766800d841bc4ee867972cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6315b2035dc89ce1aadb39e107a9f58') in 0.071567 seconds 
-  Import took 0.074687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033307 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0150.png
-  artifactKey: Guid(c4d940d36a4feb745a892ed4a43cecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0150.png using Guid(c4d940d36a4feb745a892ed4a43cecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5754869e821f29ed9f2587301624977') in 0.021958 seconds 
-  Import took 0.037739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.318234 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0110.png
-  artifactKey: Guid(539c8f84cf834e648bf32b660476d5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0110.png using Guid(539c8f84cf834e648bf32b660476d5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf768c13772396bc71d86a53286b38a') in 0.017240 seconds 
-  Import took 0.030783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0120.png
-  artifactKey: Guid(7ee9077ca58cab64bafd22818345cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0120.png using Guid(7ee9077ca58cab64bafd22818345cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9ba9988fbb9669cf0dc8b060e6966f') in 0.020700 seconds 
-  Import took 0.024434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0040.png
-  artifactKey: Guid(15d9a093f25e8c047ad434325cac0935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0040.png using Guid(15d9a093f25e8c047ad434325cac0935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd099f873554d9da77986f42ba6d485') in 0.033596 seconds 
-  Import took 0.037529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0000.png
-  artifactKey: Guid(d81e7ceac4075ea4a8a558482839ffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0000.png using Guid(d81e7ceac4075ea4a8a558482839ffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79b319afd9e5ed014c5c6196b11bdae') in 0.024204 seconds 
-  Import took 0.083390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0090.png
-  artifactKey: Guid(beb39fed6b8da6e44b6766f0a11d2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0090.png using Guid(beb39fed6b8da6e44b6766f0a11d2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0387551105969063a8a9cd51309397') in 0.020517 seconds 
-  Import took 0.023344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0020.png
-  artifactKey: Guid(94d5a6f939588ba429659295e28f555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0020.png using Guid(94d5a6f939588ba429659295e28f555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c177f8d297c080daacab777da91b13fe') in 0.018982 seconds 
-  Import took 0.052614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0130.png
-  artifactKey: Guid(932ce895b3a1f5441a2d2d39068e8ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0130.png using Guid(932ce895b3a1f5441a2d2d39068e8ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388dd4a53443569593f7aa847f1610cb') in 0.043045 seconds 
-  Import took 0.059826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0080.png
-  artifactKey: Guid(9c9986dbf90b2cf4986cf7160d0bb711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0080.png using Guid(9c9986dbf90b2cf4986cf7160d0bb711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbe95d25cb5cc8244e115a5f4722d1d') in 0.018502 seconds 
-  Import took 0.026587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0070.png
-  artifactKey: Guid(daf7d3938825bed43a0875a34412237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0070.png using Guid(daf7d3938825bed43a0875a34412237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d91bd73c1121de066d374a668a2e61') in 0.020138 seconds 
-  Import took 0.023470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0030.png
-  artifactKey: Guid(f1d410780822573429852ddf9e8853ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0030.png using Guid(f1d410780822573429852ddf9e8853ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a291c50e1d6b7ce73a2923c1b9397caf') in 0.026130 seconds 
-  Import took 0.038755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0140.png
-  artifactKey: Guid(ad0b09474c3fe0e42beca85e082c7f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0140.png using Guid(ad0b09474c3fe0e42beca85e082c7f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca21330e1199ef57590b23c9db1cdf0') in 0.025221 seconds 
-  Import took 0.028210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0130.png
-  artifactKey: Guid(3cbdc3f519a0c3245ab6de86f03126f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0130.png using Guid(3cbdc3f519a0c3245ab6de86f03126f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a82f1536f64ab1c039be079159c890') in 0.018747 seconds 
-  Import took 0.032332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0110.png
-  artifactKey: Guid(996d54b61dfc4934893d4ab7111550c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0110.png using Guid(996d54b61dfc4934893d4ab7111550c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee41963019ac358d5fe91552a862f92') in 0.020684 seconds 
-  Import took 0.023744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0150.png
-  artifactKey: Guid(6ad694df4e4c97541b2a1c20a4429c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0150.png using Guid(6ad694df4e4c97541b2a1c20a4429c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf973a228bb4dc7297a043e328652b0') in 0.032281 seconds 
-  Import took 0.035666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0050.png
-  artifactKey: Guid(bd431183decfae14791539fcd4d7793d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0050.png using Guid(bd431183decfae14791539fcd4d7793d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b552304648ee7119dd93c1b3e5d354be') in 0.020649 seconds 
-  Import took 0.023716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0120.png
-  artifactKey: Guid(8c6cd484fa69dbc4d9dcd96c62965eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0120.png using Guid(8c6cd484fa69dbc4d9dcd96c62965eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4237e0a4d70a55d28a21dc2f8fa0108a') in 0.017865 seconds 
-  Import took 0.029239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0080.png
-  artifactKey: Guid(6a755374d3a8f7e4d9446c77d5d5b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0080.png using Guid(6a755374d3a8f7e4d9446c77d5d5b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c115a8bc169f802ae8ab7f8866834df') in 0.032094 seconds 
-  Import took 0.040682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0060.png
-  artifactKey: Guid(3bc0899396934ef44b04652d07bbfe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0060.png using Guid(3bc0899396934ef44b04652d07bbfe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c02e7f131eae77fe5b232d2db0253f5') in 0.019430 seconds 
-  Import took 0.022457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0010.png
-  artifactKey: Guid(d69549b100c790b459dbefeed5eea66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0010.png using Guid(d69549b100c790b459dbefeed5eea66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9e45fb7aeeee15ea23116726101594') in 0.034432 seconds 
-  Import took 0.037438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0100.png
-  artifactKey: Guid(382e3b722a520e24689940c7b1d53f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0100.png using Guid(382e3b722a520e24689940c7b1d53f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df359aca62eade6a32ef824e52e82ad7') in 0.046950 seconds 
-  Import took 0.115163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0050.png
-  artifactKey: Guid(54b046984eccd0e498f9f4fe0232f902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/IDLE/IDLE_M_Human_0050.png using Guid(54b046984eccd0e498f9f4fe0232f902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40bec5929d357d5f3583917e4a24218') in 0.021701 seconds 
-  Import took 0.024963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0100.png
-  artifactKey: Guid(39a01e858ea9319498717d37fa5b8c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0100.png using Guid(39a01e858ea9319498717d37fa5b8c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9359cabea4874cddb0caf5177559a6b4') in 0.030048 seconds 
-  Import took 0.033313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0140.png
-  artifactKey: Guid(83dad89330ebdc242a28cc0493017b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0140.png using Guid(83dad89330ebdc242a28cc0493017b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bda53b4e01c4c59a10eb19f23f2c27b') in 0.079047 seconds 
-  Import took 0.088068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0090.png
-  artifactKey: Guid(b19446e78151e6e45abef9faf037c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0090.png using Guid(b19446e78151e6e45abef9faf037c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847fa3ae289530f62ca4c3e67b8968a5') in 0.025558 seconds 
-  Import took 0.165717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0060.png
-  artifactKey: Guid(a692d7d28c6d9c245be2f8a9e14b4315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0060.png using Guid(a692d7d28c6d9c245be2f8a9e14b4315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992a2d956f1e8169baeec491f6603515') in 0.064563 seconds 
-  Import took 0.067383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0020.png
-  artifactKey: Guid(fb24f2c1a00532044b7666af3396888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0020.png using Guid(fb24f2c1a00532044b7666af3396888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae79ada3a5e7cd60d8496709e8f55cb9') in 0.022176 seconds 
-  Import took 0.025034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0070.png
-  artifactKey: Guid(4651980ff587f8445a32331cf47ac2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0070.png using Guid(4651980ff587f8445a32331cf47ac2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e3c86df1cad22a6e6894f85a82129e') in 0.018683 seconds 
-  Import took 0.021550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0030.png
-  artifactKey: Guid(061a65ee0690684419b911afc03bd780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0030.png using Guid(061a65ee0690684419b911afc03bd780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595d13e9675186129ebc8322a8519080') in 0.021122 seconds 
-  Import took 0.023962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0040.png
-  artifactKey: Guid(d8534eecc234f9b449abe5bb744907dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0040.png using Guid(d8534eecc234f9b449abe5bb744907dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705f9ba78b703cca5871954a479e5f58') in 0.030065 seconds 
-  Import took 0.050299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/Hammer_0000.png
-  artifactKey: Guid(15cc20e703302924bbffe601ec7c08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/Hammer_0000.png using Guid(15cc20e703302924bbffe601ec7c08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9469187cd75a983cb6a4255b826d77') in 0.017905 seconds 
-  Import took 0.021256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0010.png
-  artifactKey: Guid(08f09e6e4f041cb40980dc7b8c536f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0010.png using Guid(08f09e6e4f041cb40980dc7b8c536f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb592e3f1634b085018692acae29b69') in 0.047427 seconds 
-  Import took 0.051131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/Hammer_Double_0000.png
-  artifactKey: Guid(2b6d488861cdf774bb8f470e3aeab625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/Hammer_Double_0000.png using Guid(2b6d488861cdf774bb8f470e3aeab625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b101fc82038eb33fff21b1cbfc6161b') in 0.017666 seconds 
-  Import took 0.030145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0090.png
-  artifactKey: Guid(8b58dfc0c20f3804e91e83b25c8eda25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0090.png using Guid(8b58dfc0c20f3804e91e83b25c8eda25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820a1f2baee40337eeeb9055fb0d4aba') in 0.022892 seconds 
-  Import took 0.026223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0030.png
-  artifactKey: Guid(9eb8daffe262ba347a37d2dd5000e4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0030.png using Guid(9eb8daffe262ba347a37d2dd5000e4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c483ff541867956e90def84e5ee01112') in 0.020364 seconds 
-  Import took 0.023746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0110.png
-  artifactKey: Guid(9bd4ab2ba96034848ac251378da30b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0110.png using Guid(9bd4ab2ba96034848ac251378da30b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfe594a7d63b04e8b887c75c80dd9e5') in 0.022144 seconds 
-  Import took 0.025760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0130.png
-  artifactKey: Guid(5a2f49ecdbabf0547a04d11f76400e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0130.png using Guid(5a2f49ecdbabf0547a04d11f76400e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2c69066657ea09cb7d647af4a59e3c') in 0.028201 seconds 
-  Import took 0.031408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0010.png
-  artifactKey: Guid(1136434866b0d3c4fb9bbe0aca5d1e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0010.png using Guid(1136434866b0d3c4fb9bbe0aca5d1e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ada30134b0808bc23e2150ab03e0965') in 0.025368 seconds 
-  Import took 0.028661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0120.png
-  artifactKey: Guid(cb4387d4887003544bf2b443d4a3323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0120.png using Guid(cb4387d4887003544bf2b443d4a3323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca572c38f414105ce55213b6415ed6a8') in 0.022892 seconds 
-  Import took 0.026121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0050.png
-  artifactKey: Guid(a07395d9db744ad4f9cd686ccedf54bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0050.png using Guid(a07395d9db744ad4f9cd686ccedf54bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8616f67be128e617137c6db2f2114b29') in 0.016574 seconds 
-  Import took 0.019781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Bubble_0000.png
-  artifactKey: Guid(a1a8d0b1cf47431429a3ad2e1ef2b4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Water_2D/Sprites/Bubble_0000.png using Guid(a1a8d0b1cf47431429a3ad2e1ef2b4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7343ff42b3b542e5148542a29708aa2') in 0.017368 seconds 
-  Import took 0.066386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0140.png
-  artifactKey: Guid(b591d027af9c2374eb802679c843ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0140.png using Guid(b591d027af9c2374eb802679c843ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fd6b570b4688bd434db1e9af70ff98') in 0.016151 seconds 
-  Import took 0.051223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0070.png
-  artifactKey: Guid(bed2d388069935644b2c737b6bf8f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0070.png using Guid(bed2d388069935644b2c737b6bf8f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387856b1d1083e5971d5670605c00018') in 0.017361 seconds 
-  Import took 0.020669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0100.png
-  artifactKey: Guid(1436477b7127c4a478cef0c62dbb0c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0100.png using Guid(1436477b7127c4a478cef0c62dbb0c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27780fd5c4c33a92064ce21c73fa5b30') in 0.018137 seconds 
-  Import took 0.050923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0040.png
-  artifactKey: Guid(0b54dad3047a4a0458ee10b2dd1df102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0040.png using Guid(0b54dad3047a4a0458ee10b2dd1df102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138b69703add683551d9f2f2eba28cd5') in 0.019538 seconds 
-  Import took 0.022453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0020.png
-  artifactKey: Guid(e966cd96c910be240ba603684d6cdace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0020.png using Guid(e966cd96c910be240ba603684d6cdace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e70007393c242a48c0ffcd2d7f4b70') in 0.044605 seconds 
-  Import took 0.070725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0000.png
-  artifactKey: Guid(9943336541308ca4880a03475a80fad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/HIT/HIT_M_Human_0000.png using Guid(9943336541308ca4880a03475a80fad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88d108e46a4ee6bd893507eb8910310') in 0.018048 seconds 
-  Import took 0.024045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0080.png
-  artifactKey: Guid(171eb8d8404835b4a9f4541477234353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0080.png using Guid(171eb8d8404835b4a9f4541477234353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816483bc0d05b76018c9cd824c2d0f39') in 0.029955 seconds 
-  Import took 0.033280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0060.png
-  artifactKey: Guid(dfd32c77ae8b6b54a94d423cfdff1acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0060.png using Guid(dfd32c77ae8b6b54a94d423cfdff1acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e71aafdfa5b672f35a5e95478e79cf') in 0.019155 seconds 
-  Import took 0.027924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0000.png
-  artifactKey: Guid(be2cabaa77d4f4540bdf633e40dca4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0000.png using Guid(be2cabaa77d4f4540bdf633e40dca4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbf837508b5dab02c33f2a86f792c5d') in 0.027480 seconds 
-  Import took 0.050909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0150.png
-  artifactKey: Guid(f32c6b6cd5ba64246b2c65226aab8ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/DEATH/DEATH_M_Human_0150.png using Guid(f32c6b6cd5ba64246b2c65226aab8ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d66660f437bbcfae3fb5942ecc296d') in 0.017928 seconds 
-  Import took 0.020904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.401707 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/AXE_0000.png
-  artifactKey: Guid(88de156d0a64dba40a070d066ac36873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/WEAPONS/AXE_0000.png using Guid(88de156d0a64dba40a070d066ac36873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfac69fbc0395d0ceecdf6d04e88c9a8') in 0.040444 seconds 
-  Import took 0.043971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0130.png
-  artifactKey: Guid(1fbcf5fa154d0e64c97894ce6b709b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0130.png using Guid(1fbcf5fa154d0e64c97894ce6b709b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad824c1555eab8cafa00e8095e17aaf') in 0.026157 seconds 
-  Import took 0.043003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0120.png
-  artifactKey: Guid(cffbbdd2301d6ff42944fa5bc4db458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0120.png using Guid(cffbbdd2301d6ff42944fa5bc4db458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf25c61489c067a15758f6964b163b98') in 0.018522 seconds 
-  Import took 0.021777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0020.png
-  artifactKey: Guid(2483e91b39d280d45863aca70f4668ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0020.png using Guid(2483e91b39d280d45863aca70f4668ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9f373323b6b5333ab5117f985e83a1') in 0.019405 seconds 
-  Import took 0.022555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0100.png
-  artifactKey: Guid(f991bb1c64436e84ea69bfff45855eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0100.png using Guid(f991bb1c64436e84ea69bfff45855eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ad77f50e70cc5a7e410bdb0b489839') in 0.022980 seconds 
-  Import took 0.033459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0110.png
-  artifactKey: Guid(63888c930c89c8645b08d1df70f2ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0110.png using Guid(63888c930c89c8645b08d1df70f2ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5acce706228be4cbd3a2d8027438495') in 0.016520 seconds 
-  Import took 0.019747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0090.png
-  artifactKey: Guid(30668f14d6154a043be7e6ae27fe96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0090.png using Guid(30668f14d6154a043be7e6ae27fe96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e2b4f2e5f718cc03725ebeb2bd1939') in 0.025888 seconds 
-  Import took 0.028861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0060.png
-  artifactKey: Guid(1947ff3f0b348ad42a2713f783800cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0060.png using Guid(1947ff3f0b348ad42a2713f783800cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340918cc017660851f0071ee44daeb1c') in 0.017673 seconds 
-  Import took 0.045753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0040.png
-  artifactKey: Guid(dc00fc712cf478f4a9bd59684ddb5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0040.png using Guid(dc00fc712cf478f4a9bd59684ddb5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cde043eff8398cc2df2d595c49a55b6') in 0.086510 seconds 
-  Import took 0.089338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0140.png
-  artifactKey: Guid(9c8a7be8c5960db418524fbe3f210d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0140.png using Guid(9c8a7be8c5960db418524fbe3f210d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f417114699045b4c0aeb1adacaa4275') in 0.017845 seconds 
-  Import took 0.042901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0150.png
-  artifactKey: Guid(027bd768b54341045ae63fb94f297acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0150.png using Guid(027bd768b54341045ae63fb94f297acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef94d599e23b1dcac446472a073276da') in 0.030278 seconds 
-  Import took 0.060910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0030.png
-  artifactKey: Guid(c10228b66aa841842b4017ee53b549ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0030.png using Guid(c10228b66aa841842b4017ee53b549ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4210daadc0393856706df3620f79d3d0') in 0.015901 seconds 
-  Import took 0.019093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0070.png
-  artifactKey: Guid(4211297a3a360f6429f1e5edf14f160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0070.png using Guid(4211297a3a360f6429f1e5edf14f160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4c6fcf6e82c8e5cfde31c53a32940') in 0.016621 seconds 
-  Import took 0.019928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0050.png
-  artifactKey: Guid(f5395656bf6d2e842a2378ae498d62bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0050.png using Guid(f5395656bf6d2e842a2378ae498d62bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aa235c0cb804c19783cdda45c91618') in 0.016413 seconds 
-  Import took 0.019789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0080.png
-  artifactKey: Guid(148f0ae7e8a533e49bb072e11b877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0080.png using Guid(148f0ae7e8a533e49bb072e11b877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a862bc150e5be6942f8702472ec8c67c') in 0.017937 seconds 
-  Import took 0.021530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.190327 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0000.png
-  artifactKey: Guid(09381aff69361ca418536d1af11f14d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0000.png using Guid(09381aff69361ca418536d1af11f14d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065a99c4e47876c569a8bf0f343c0819') in 0.054888 seconds 
-  Import took 0.058551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0010.png
-  artifactKey: Guid(8a2526acf23e8cb40b7d417e53b3a513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/2D_STONE AGE WORLD/Assets/Player/Sprites/ATTACK/ATTACK_M_Human_0010.png using Guid(8a2526acf23e8cb40b7d417e53b3a513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f7f1c6762f9aa489b70ab3a819846f') in 0.037839 seconds 
-  Import took 0.083545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 996.446826 seconds.
-  path: Assets/Scenes/Shops
-  artifactKey: Guid(e020c5f89521138459d72d6faee302e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shops using Guid(e020c5f89521138459d72d6faee302e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7930c0b87bee84bb260b82abbb6149') in 0.005049 seconds 
-  Import took 0.014675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.558722 seconds.
-  path: Assets/Scenes/Shops/SkillShop.unity
-  artifactKey: Guid(e022acadb4fc53d429104b2e99e6eeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shops/SkillShop.unity using Guid(e022acadb4fc53d429104b2e99e6eeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75964c0464a5b7ac7d8348d17d517b2a') in 0.005495 seconds 
-  Import took 0.008683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.046173 seconds.
-  path: Assets/Scenes/Shops/PerformanceShop.unity
-  artifactKey: Guid(1f02ca89d2a4fa24a9ff2cd75e9cac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shops/PerformanceShop.unity using Guid(1f02ca89d2a4fa24a9ff2cd75e9cac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3d100aebe7f6ed1adda2e4a99ee539') in 0.005125 seconds 
-  Import took 0.008473 seconds .
-
+========================================================================
+Received Import Request.
+  Time since last request: 595.745733 seconds.
+  path: Assets/Media/Image/OriginShopButton.ai
+  artifactKey: Guid(3295775aa60ff174da8c01c403396178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Image/OriginShopButton.ai using Guid(3295775aa60ff174da8c01c403396178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d54f756cec1249db4a6ed61460965') in 0.047106 seconds 
+  Import took 0.075307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3794.890096 seconds.
+  path: Assets/Media/Image/Buttons
+  artifactKey: Guid(b52a70f0a361a0148bdeb3523e084fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Image/Buttons using Guid(b52a70f0a361a0148bdeb3523e084fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857bc8298fad4e14f6332e45410336d5') in 0.006051 seconds 
+  Import took 0.009831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067731 seconds.
+  path: Assets/Media/Image/Buttons/PerformanceShopButton.png
+  artifactKey: Guid(62a1b4eb714adb84c8a630f43a6b06a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Image/Buttons/PerformanceShopButton.png using Guid(62a1b4eb714adb84c8a630f43a6b06a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56938628f47913b9513f8a001cc834fa') in 0.115360 seconds 
+  Import took 0.118847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.522404 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf479ec20479a0ff9506404fa763874') in 0.015947 seconds 
+  Import took 0.019094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.079535 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd87d9f514e95caa6d333f295171857d') in 0.004902 seconds 
+  Import took 0.017552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.079824 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe48a6beeb3e1a36ea923abaffd7011') in 0.002303 seconds 
+  Import took 0.119022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.428900 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976b98ae2f62f1bd8fe3ec6b947d102') in 0.003427 seconds 
+  Import took 0.021483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.689359 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247478a0a354b89e80dca61b34aefece') in 0.007016 seconds 
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Domain Reload Profiling:
+	ReloadAssembly (956ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.573900 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.330200 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.802087 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e09d2a3553345e7f0ac54558a9d63fd') in 0.005431 seconds 
+  Import took 0.008734 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 2.760100 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.101600 ms MarkObjects: 2.444700 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.633016 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ddfbdea2c39edc456c8b666c388a5a') in 0.004947 seconds 
+  Import took 0.055026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.567993 seconds.
+  path: Assets/Script/MoveScene.cs
+  artifactKey: Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MoveScene.cs using Guid(e0e2dc8ed3273c64baedc984886b756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182de5c4527327abc76744bfe17d03ef') in 0.003746 seconds 
+  Import took 0.007271 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (912ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 2.685800 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.444900 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (772ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 2.691100 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.439900 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (805ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 2.683500 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.431300 ms  DeleteObjects: 0.015100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 2.629800 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.073300 ms MarkObjects: 2.392400 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 2.768600 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.468400 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
