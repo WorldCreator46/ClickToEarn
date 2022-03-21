@@ -1,7 +1,6 @@
 using System.Numerics;
 using UnityEngine;
 using System.Collections.Generic;
-using System.Text;
 
 public class MoneyCalculation : MonoBehaviour
 {
