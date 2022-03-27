@@ -61,6 +61,7 @@
     <Compile Include="Assets\Script\Performance.cs" />
     <Compile Include="Assets\Script\MoneyCalculation.cs" />
     <Compile Include="Assets\Script\CoinPrefabCreator.cs" />
+    <Compile Include="Assets\Script\Starter.cs" />
     <Compile Include="Assets\Script\DisplayMoney.cs" />
     <Compile Include="Assets\Script\Earn.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
@@ -73,7 +74,7 @@
     <Compile Include="Assets\Shop\Background\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
-    <Compile Include="Assets\Script\Starter.cs" />
+    <Compile Include="Assets\Script\Skill.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shop\Texture\Five Seamless Tileable Ground Textures\read me.txt" />
