@@ -7,6 +7,6 @@ public class Earn : MonoBehaviour
 {
     public void TouchToEarn()
     {
-        Property.Propertys["Money"] = BigInteger.Add(BigInteger.Parse(Property.Propertys["Money"]), BigInteger.Parse(Performance.EranMoney())).ToString();
+        MainSystem.Property.AddMoney(MainSystem.MC.EranMoney());
     }
 }

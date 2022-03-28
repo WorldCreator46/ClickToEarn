@@ -1,13 +1,12 @@
 using System.Numerics;
-using UnityEngine;
 using System.Collections.Generic;
 
-public class MoneyCalculation : MonoBehaviour
+public class MoneyCalculation
 {
-    static readonly char[] Units = {'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
-    public static string Compress(BigInteger _Money)
+    readonly char[] Units = {'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
+    public string Compress(string _Money)
     {
-        BigInteger Quotient = _Money;
+        BigInteger Quotient = BigInteger.Parse(_Money);
         BigInteger Remainder = BigInteger.Zero;
         Dictionary<int, char> TempUnit = new Dictionary<int, char>();
         for (int Sequence = 0; Sequence >= 0; Sequence++)
@@ -38,5 +37,14 @@ public class MoneyCalculation : MonoBehaviour
             Unit = TempUnit[0].ToString();
         }
         return $"{Quotient}.{Remainder}{Unit}";
+    }
+    public string EranMoney()
+    {
+        BigInteger result = BigInteger.Multiply(MainSystem.Performance.GetMultiplicand(), MainSystem.Skill.GetMultiplier());        
+        return BigInteger.Divide(result, BigInteger.Parse("100")).ToString();
+    }
+    public string GetEranMoney()
+    {
+        return Compress(EranMoney());
     }
 }

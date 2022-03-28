@@ -20,8 +20,9 @@ public class Save : MonoBehaviour
     void SaveData()
     {
         PlayerPrefs.SetString("password", password);
-        PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
-        PlayerPrefs.SetString("Performance", Encrypt(Performance.GetPerformance()));
+        PlayerPrefs.SetString("Property", Encrypt(MainSystem.Property.GetProperty()));
+        PlayerPrefs.SetString("Skill", Encrypt(MainSystem.Skill.GetSkill()));
+        PlayerPrefs.SetString("Performance", Encrypt(MainSystem.Performance.GetPerformance()));
         PlayerPrefs.Save();
     }
     void LoadData()
@@ -29,24 +30,26 @@ public class Save : MonoBehaviour
         if (CheckData())
         {
             password = PlayerPrefs.GetString("password");
-            Property.SetPropert(Decrypt(PlayerPrefs.GetString("Property")));
-            Performance.SetPerformance(Decrypt(PlayerPrefs.GetString("Performance")));
+            MainSystem.Property.SetPropert(Decrypt(PlayerPrefs.GetString("Property")));
+            MainSystem.Skill.SetSkill(Decrypt(PlayerPrefs.GetString("Skill")));
+            MainSystem.Performance.SetPerformance(Decrypt(PlayerPrefs.GetString("Performance")));
         }
         else
         {
+            ResetData();
             password = ExtractLetters();
         }
     }
     bool CheckData()
     {
         bool check = false;
-        if (PlayerPrefs.HasKey("password") && PlayerPrefs.HasKey("Property") && PlayerPrefs.HasKey("Performance"))
+        if (PlayerPrefs.HasKey("password") && PlayerPrefs.HasKey("Property") && PlayerPrefs.HasKey("Performance") && PlayerPrefs.HasKey("Skill"))
         {
             check = true;
         }
         return check;
     }
-    public static string ExtractLetters()
+    private string ExtractLetters()
     {
         StringBuilder temp = new StringBuilder();
         System.Random random = new System.Random();
@@ -56,7 +59,7 @@ public class Save : MonoBehaviour
         }
         return temp.ToString();
     }
-    public string Decrypt(string textToDecrypt)
+    private string Decrypt(string textToDecrypt)
     {
         RijndaelManaged rijndaelCipher = new RijndaelManaged();
         rijndaelCipher.Mode = CipherMode.CBC;
