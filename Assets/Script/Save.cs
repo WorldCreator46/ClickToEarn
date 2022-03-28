@@ -20,9 +20,9 @@ public class Save : MonoBehaviour
     void SaveData()
     {
         PlayerPrefs.SetString("password", password);
-        PlayerPrefs.SetString("Property", Encrypt(MainSystem.Property.GetProperty()));
-        PlayerPrefs.SetString("Skill", Encrypt(MainSystem.Skill.GetSkill()));
-        PlayerPrefs.SetString("Performance", Encrypt(MainSystem.Performance.GetPerformance()));
+        PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
+        PlayerPrefs.SetString("Skill", Encrypt(Skill.GetSkill()));
+        PlayerPrefs.SetString("Performance", Encrypt(Performance.GetPerformance()));
         PlayerPrefs.Save();
     }
     void LoadData()
@@ -30,9 +30,9 @@ public class Save : MonoBehaviour
         if (CheckData())
         {
             password = PlayerPrefs.GetString("password");
-            MainSystem.Property.SetPropert(Decrypt(PlayerPrefs.GetString("Property")));
-            MainSystem.Skill.SetSkill(Decrypt(PlayerPrefs.GetString("Skill")));
-            MainSystem.Performance.SetPerformance(Decrypt(PlayerPrefs.GetString("Performance")));
+            Property.SetPropert(Decrypt(PlayerPrefs.GetString("Property")));
+            Skill.SetSkill(Decrypt(PlayerPrefs.GetString("Skill")));
+            Performance.SetPerformance(Decrypt(PlayerPrefs.GetString("Performance")));
         }
         else
         {

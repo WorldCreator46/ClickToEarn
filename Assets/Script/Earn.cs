@@ -7,6 +7,6 @@ public class Earn : MonoBehaviour
 {
     public void TouchToEarn()
     {
-        MainSystem.Property.AddMoney(MainSystem.MC.EranMoney());
+        Property.AddMoney(MoneyCalculation.EranMoney());
     }
 }

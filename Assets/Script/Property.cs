@@ -8,23 +8,23 @@ public class Property
     {
         {"Money", "10000" }
     };*/
-    private Dictionary<string, string> Propertys = new Dictionary<string, string>()
+    private static Dictionary<string, string> Propertys = new Dictionary<string, string>()
     {
         {"Money", "10000" }
     };
-    public void AddMoney(string money)
+    public static void AddMoney(string money)
     {
         Propertys["Money"] = BigInteger.Add(BigInteger.Parse(Propertys["Money"]), BigInteger.Parse(money)).ToString();
     }
-    public string GetMoney()
+    public static string GetMoney()
     {
-        return MainSystem.MC.Compress(Propertys["Money"]);
+        return MoneyCalculation.Compress(Propertys["Money"]);
     }
-    public void SetPropert(string code)
+    public static void SetPropert(string code)
     {
         Propertys = JsonConvert.DeserializeObject<Dictionary<string, string>>(code);
     }
-    public string GetProperty()
+    public static string GetProperty()
     {
         return JsonConvert.SerializeObject(Propertys);
     }

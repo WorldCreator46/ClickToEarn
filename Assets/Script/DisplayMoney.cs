@@ -10,6 +10,6 @@ public class DisplayMoney : MonoBehaviour
     }
     void Update()
     {
-        tm.text = MainSystem.Property.GetMoney();
+        tm.text = Property.GetMoney();
     }
 }
