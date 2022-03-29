@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Numerics;
 
 public class MoneyAddText : MonoBehaviour
 {

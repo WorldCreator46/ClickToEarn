@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Security.Cryptography;
 using System.Text;
 using System;
-using Newtonsoft.Json;
 
 public class Save : MonoBehaviour
 {

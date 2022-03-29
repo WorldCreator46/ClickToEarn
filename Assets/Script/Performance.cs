@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using Newtonsoft.Json;
 using UnityEngine;
+using System.Linq;
 
 public class Performance : MonoBehaviour
 {
@@ -24,6 +25,20 @@ public class Performance : MonoBehaviour
             result = BigInteger.Add(result, BigInteger.Multiply(BigInteger.Parse(Performances[idx][3]), BigInteger.Parse(Performances[idx][4])));
         }
         return result;
+    }
+    public static List<string>[] PriceCalculation()
+    {
+        List<string>[] menu = new List<string>[Performances.Length];
+        for (int idx = 0; idx < Performances.Length; idx++)
+        {
+            List<string> temp = new List<string>()
+            {
+                Performances[idx][0],
+                BigInteger.Multiply(BigInteger.Parse(Performances[idx][1]), BigInteger.Pow(BigInteger.Parse(Performances[idx][2]), int.Parse(Performances[idx][4]))).ToString()
+            };
+            menu[idx] = temp.ToList();
+        }
+        return menu;
     }
     public static void SetPerformance(string code)
     {

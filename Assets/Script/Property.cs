@@ -12,13 +12,13 @@ public class Property
     {
         {"Money", "10000" }
     };
-    public static void AddMoney(string money)
+    public static void AddMoney(BigInteger money)
     {
-        Propertys["Money"] = BigInteger.Add(BigInteger.Parse(Propertys["Money"]), BigInteger.Parse(money)).ToString();
+        Propertys["Money"] = BigInteger.Add(BigInteger.Parse(Propertys["Money"]), money).ToString();
     }
     public static string GetMoney()
     {
-        return MoneyCalculation.Compress(Propertys["Money"]);
+        return MoneyCalculation.Convert(Propertys["Money"]);
     }
     public static void SetPropert(string code)
     {
