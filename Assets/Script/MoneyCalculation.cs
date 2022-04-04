@@ -9,6 +9,10 @@ public class MoneyCalculation : MonoBehaviour
     public static string Convert(string _Money)
     {
         BigInteger Quotient = BigInteger.Parse(_Money);
+        if (-1 == BigInteger.Compare(Quotient, BigInteger.Parse("1000")))
+        {
+            return _Money;
+        }
         BigInteger Remainder = BigInteger.Zero;
         Dictionary<int, char> TempUnit = new Dictionary<int, char>();
         for (int Sequence = 0; Sequence >= 0; Sequence++)
@@ -38,6 +42,10 @@ public class MoneyCalculation : MonoBehaviour
         {
             Unit = TempUnit[0].ToString();
         }
+        if(Remainder.ToString() == "0")
+        {
+            return $"{Quotient}{Unit}";
+        }
         return $"{Quotient}.{Remainder}{Unit}";
     }
     public static BigInteger EranMoney()
@@ -49,9 +57,20 @@ public class MoneyCalculation : MonoBehaviour
     {
         return Convert(EranMoney().ToString());
     }
-    public static List<string>[] GetPrice()
+    public static Dictionary<string,BigInteger> GetPriceMenu()
     {
-        List<string>[] menu = Performance.PriceCalculation().Concat(Skill.PriceCalculation()).ToArray();
+        Dictionary<string, BigInteger> menu = new Dictionary<string, BigInteger>();
+        Performance.PriceCalculationMenu().ToList().ForEach(x => menu.Add(x.Key, x.Value));
+        Skill.PriceCalculationMenu().ToList().ForEach(x => menu.Add(x.Key, x.Value));
         return menu;
+    }
+    public static string GetPrice(string ProductName)
+    {
+        string price = Performance.PriceCalculation(ProductName);
+        if (price == "")
+        {
+            price = Skill.PriceCalculation(ProductName);
+        }
+        return price;
     }
 }

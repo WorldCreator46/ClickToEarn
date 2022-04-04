@@ -11,8 +11,8 @@ public class Skill : MonoBehaviour
     {
         new List<string>(){ "악력 증가", "1000000", "5", "10", "0"},
         new List<string>(){ "시력 증가", "1000000000", "5", "20", "0"},
-        new List<string>(){ "근력 강화", "1000000000000", "10", "30", "0"},
-        new List<string>(){ "체력 강화", "1000000000000000", "10", "50", "0"}
+        new List<string>(){ "근력 증가", "1000000000000", "10", "30", "0"},
+        new List<string>(){ "체력 증가", "1000000000000000", "10", "50", "0"}
     };
     public static BigInteger GetMultiplier()
     {
@@ -23,19 +23,25 @@ public class Skill : MonoBehaviour
         }
         return result;
     }
-    public static List<string>[] PriceCalculation()
+    public static Dictionary<string, BigInteger> PriceCalculationMenu()
     {
-        List<string>[] menu = new List<string>[Skills.Length];
+        Dictionary<string, BigInteger> menu = new Dictionary<string, BigInteger>();
         for (int idx = 0; idx < Skills.Length; idx++)
         {
-            List<string> temp = new List<string>()
-            {
-                Skills[idx][0],
-                BigInteger.Multiply(BigInteger.Parse(Skills[idx][1]), BigInteger.Pow(BigInteger.Parse(Skills[idx][2]), int.Parse(Skills[idx][4]))).ToString()
-            };
-            menu[idx] = temp.ToList();
+            menu[Skills[idx][0]] = BigInteger.Multiply(BigInteger.Parse(Skills[idx][1]), BigInteger.Pow(BigInteger.Parse(Skills[idx][2]), int.Parse(Skills[idx][4])));
         }
         return menu;
+    }
+    public static string PriceCalculation(string ProductName)
+    {
+        for (int idx = 0; idx < Skills.Length; idx++)
+        {
+            if (Skills[idx][0] == ProductName)
+            {
+                return BigInteger.Multiply(BigInteger.Parse(Skills[idx][1]), BigInteger.Pow(BigInteger.Parse(Skills[idx][2]), int.Parse(Skills[idx][4]))).ToString();
+            }
+        }
+        return "";
     }
     public static void SetSkill(string code)
     {

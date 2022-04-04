@@ -16,6 +16,19 @@ public class Property
     {
         Propertys["Money"] = BigInteger.Add(BigInteger.Parse(Propertys["Money"]), money).ToString();
     }
+    public static bool SubtractMoney(BigInteger money)
+    {
+        BigInteger temp = BigInteger.Subtract(BigInteger.Parse(Propertys["Money"]), money);
+        if (temp >= BigInteger.Zero)
+        {
+            Propertys["Money"] = temp.ToString();
+            return true;
+        }
+        else
+        {
+            return false;
+        }            
+    }
     public static string GetMoney()
     {
         return MoneyCalculation.Convert(Propertys["Money"]);

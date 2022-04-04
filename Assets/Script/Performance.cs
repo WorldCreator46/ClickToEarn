@@ -26,19 +26,25 @@ public class Performance : MonoBehaviour
         }
         return result;
     }
-    public static List<string>[] PriceCalculation()
+    public static Dictionary<string, BigInteger> PriceCalculationMenu()
     {
-        List<string>[] menu = new List<string>[Performances.Length];
+        Dictionary<string, BigInteger> menu = new Dictionary<string, BigInteger>();
         for (int idx = 0; idx < Performances.Length; idx++)
         {
-            List<string> temp = new List<string>()
-            {
-                Performances[idx][0],
-                BigInteger.Multiply(BigInteger.Parse(Performances[idx][1]), BigInteger.Pow(BigInteger.Parse(Performances[idx][2]), int.Parse(Performances[idx][4]))).ToString()
-            };
-            menu[idx] = temp.ToList();
+            menu[Performances[idx][0]] = BigInteger.Multiply(BigInteger.Parse(Performances[idx][1]), BigInteger.Pow(BigInteger.Parse(Performances[idx][2]), int.Parse(Performances[idx][4])));
         }
         return menu;
+    }
+    public static string PriceCalculation(string ProductName)
+    {
+        for(int idx = 0; idx < Performances.Length; idx++)
+        {
+            if(Performances[idx][0] == ProductName)
+            {
+                return BigInteger.Multiply(BigInteger.Parse(Performances[idx][1]), BigInteger.Pow(BigInteger.Parse(Performances[idx][2]), int.Parse(Performances[idx][4]))).ToString();
+            }
+        }
+        return "";
     }
     public static void SetPerformance(string code)
     {
