@@ -9,10 +9,19 @@ public class Upgrade : MonoBehaviour
     public Text[] ProductNames;
     public Text[] Prices;
     public Dictionary<string, BigInteger> Menu;
+    public Text BuyProductName;
 
     public void Purchase()
     {
-
+        BigInteger Price = BigInteger.Parse(MoneyCalculation.GetPrice(BuyProductName.text));
+        if (Property.SubtractMoney(Price))
+        {
+            Debug.Log("구매 가능");
+        }
+        else
+        {
+            Debug.Log("구매 불가");
+        }
         SetPrices();
     }
     private void Start()
