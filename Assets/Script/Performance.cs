@@ -46,6 +46,16 @@ public class Performance : MonoBehaviour
         }
         return "";
     }
+    public static void Upgrade(string ProductName)
+    {
+        for (int idx = 0; idx < Performances.Length; idx++)
+        {
+            if (Performances[idx][0] == ProductName)
+            {
+                Performances[idx][4] = (int.Parse(Performances[idx][4]) + 1).ToString();
+            }
+        }
+    }
     public static void SetPerformance(string code)
     {
         Performances = JsonConvert.DeserializeObject<List<string>[]>(code);

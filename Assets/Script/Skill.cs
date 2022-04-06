@@ -43,6 +43,16 @@ public class Skill : MonoBehaviour
         }
         return "";
     }
+    public static void Upgrade(string ProductName)
+    {
+        for (int idx = 0; idx < Skills.Length; idx++)
+        {
+            if (Skills[idx][0] == ProductName)
+            {
+                Skills[idx][4] = (int.Parse(Skills[idx][4]) + 1).ToString();
+            }
+        }
+    }
     public static void SetSkill(string code)
     {
         Skills = JsonConvert.DeserializeObject<List<string>[]>(code);

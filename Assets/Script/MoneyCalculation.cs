@@ -73,4 +73,15 @@ public class MoneyCalculation : MonoBehaviour
         }
         return price;
     }
+    public static void Upgrade(string ProductName)
+    {
+        try
+        {
+            Performance.Upgrade(ProductName);
+        }
+        catch
+        {
+            Skill.Upgrade(ProductName);
+        }
+    }
 }

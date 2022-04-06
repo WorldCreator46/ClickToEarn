@@ -10,34 +10,50 @@ public class Upgrade : MonoBehaviour
     public Text[] Prices;
     public Dictionary<string, BigInteger> Menu;
     public Text BuyProductName;
+    public GameObject SuccessPanelPrefab;
+    public GameObject FailurePanelPrefab;
 
+    private void Start()
+    {
+        SetPrices();
+    }
     public void Purchase()
     {
         BigInteger Price = BigInteger.Parse(MoneyCalculation.GetPrice(BuyProductName.text));
         if (Property.SubtractMoney(Price))
         {
-            Debug.Log("구매 가능");
+            Property.SubtractMoney(Price);
+            MoneyCalculation.Upgrade(BuyProductName.text);
+            PanelCreate(true);
         }
         else
         {
-            Debug.Log("구매 불가");
+            PanelCreate(false);
         }
         SetPrices();
     }
-    private void Start()
+    public void PanelCreate(bool tf)
     {
-        SetPrices();
+        UnityEngine.Vector3 pos = new UnityEngine.Vector3(0, 0, 0);
+        if (tf)
+        {
+            GameObject temp = Instantiate(SuccessPanelPrefab);
+            temp.transform.position = pos;
+            Destroy(temp, 0.35f);
+        }
+        else
+        {
+            GameObject temp = Instantiate(FailurePanelPrefab);
+            temp.transform.position = pos;
+            Destroy(temp, 0.35f);
+        }
     }
     public void SetPrices()
     {
-        SetPriceMenu();
-        for(int i = 0; i < ProductNames.Length; i++)
+        Menu = MoneyCalculation.GetPriceMenu();
+        for (int i = 0; i < ProductNames.Length; i++)
         {
             Prices[i].text = "가격 : " + MoneyCalculation.Convert(Menu[ProductNames[i].text].ToString());
         }
-    }
-    public void SetPriceMenu()
-    {
-        Menu = MoneyCalculation.GetPriceMenu();
     }
 }
