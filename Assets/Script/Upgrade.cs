@@ -9,25 +9,44 @@ public class Upgrade : MonoBehaviour
     public Text[] ProductNames;
     public Text[] Prices;
     public Dictionary<string, BigInteger> Menu;
-    public Text BuyProductName;
+    public GameObject Panel;
+    public Text PanelText;
 
     private void Start()
     {
         SetPrices();
     }
-    public void Purchase()
+    public void Purchase(Text BuyProductName)
     {
         BigInteger Price = BigInteger.Parse(MoneyCalculation.GetPrice(BuyProductName.text));
         if (Property.SubtractMoney(Price))
         {
             Property.SubtractMoney(Price);
             MoneyCalculation.Upgrade(BuyProductName.text);
+            PanelCreate(true);
         }
         else
         {
-
+            PanelCreate(false);
         }
         SetPrices();
+    }
+    public void PanelCreate(bool tf)
+    {
+        if (tf)
+        {
+            PanelText.text = "구매 성공!";
+        }
+        else
+        {
+            PanelText.text = "구매 실패";
+        }
+        Panel.SetActive(true);
+        Invoke("PanelActiveOff", 0.5f);
+    }
+    public void PanelActiveOff()
+    {
+        Panel.SetActive(false);
     }
     public void SetPrices()
     {
