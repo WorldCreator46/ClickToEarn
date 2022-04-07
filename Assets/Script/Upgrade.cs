@@ -10,8 +10,6 @@ public class Upgrade : MonoBehaviour
     public Text[] Prices;
     public Dictionary<string, BigInteger> Menu;
     public Text BuyProductName;
-    public GameObject SuccessPanelPrefab;
-    public GameObject FailurePanelPrefab;
 
     private void Start()
     {
@@ -24,29 +22,12 @@ public class Upgrade : MonoBehaviour
         {
             Property.SubtractMoney(Price);
             MoneyCalculation.Upgrade(BuyProductName.text);
-            PanelCreate(true);
         }
         else
         {
-            PanelCreate(false);
+
         }
         SetPrices();
-    }
-    public void PanelCreate(bool tf)
-    {
-        UnityEngine.Vector3 pos = new UnityEngine.Vector3(0, 0, 0);
-        if (tf)
-        {
-            GameObject temp = Instantiate(SuccessPanelPrefab);
-            temp.transform.position = pos;
-            Destroy(temp, 0.35f);
-        }
-        else
-        {
-            GameObject temp = Instantiate(FailurePanelPrefab);
-            temp.transform.position = pos;
-            Destroy(temp, 0.35f);
-        }
     }
     public void SetPrices()
     {
