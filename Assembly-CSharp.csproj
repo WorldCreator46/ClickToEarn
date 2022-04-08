@@ -63,7 +63,6 @@
     <Compile Include="Assets\Script\MoneyCalculation.cs" />
     <Compile Include="Assets\Script\CoinPrefabCreator.cs" />
     <Compile Include="Assets\Script\Starter.cs" />
-    <Compile Include="Assets\Script\DisplayMoney.cs" />
     <Compile Include="Assets\Script\Earn.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
     <Compile Include="Assets\Script\MainSystem.cs" />
@@ -77,6 +76,7 @@
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
     <Compile Include="Assets\Script\ShopMoneyDisplay.cs" />
+    <Compile Include="Assets\Script\StoneMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shop\Texture\Five Seamless Tileable Ground Textures\read me.txt" />
