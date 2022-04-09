@@ -56,6 +56,17 @@ public class Performance : MonoBehaviour
             }
         }
     }
+    public static bool IsProduct(string ProductName)
+    {
+        for (int idx = 0; idx < Performances.Length; idx++)
+        {
+            if (Performances[idx][0] == ProductName)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     public static void SetPerformance(string code)
     {
         Performances = JsonConvert.DeserializeObject<List<string>[]>(code);

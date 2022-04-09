@@ -53,6 +53,17 @@ public class Skill : MonoBehaviour
             }
         }
     }
+    public static bool IsProduct(string ProductName)
+    {
+        for (int idx = 0; idx < Skills.Length; idx++)
+        {
+            if (Skills[idx][0] == ProductName)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     public static void SetSkill(string code)
     {
         Skills = JsonConvert.DeserializeObject<List<string>[]>(code);

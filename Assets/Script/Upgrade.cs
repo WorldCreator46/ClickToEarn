@@ -21,8 +21,8 @@ public class Upgrade : MonoBehaviour
         BigInteger Price = BigInteger.Parse(MoneyCalculation.GetPrice(BuyProductName.text));
         if (Property.SubtractMoney(Price))
         {
-            Property.SubtractMoney(Price);
             MoneyCalculation.Upgrade(BuyProductName.text);
+            Property.SubtractMoney(Price);
             PanelCreate(true);
         }
         else

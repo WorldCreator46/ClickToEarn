@@ -4,10 +4,6 @@ using Newtonsoft.Json;
 
 public class Property
 {
-    /*public static Dictionary<string, string> Propertys = new Dictionary<string, string>()
-    {
-        {"Money", "10000" }
-    };*/
     private static Dictionary<string, string> Propertys = new Dictionary<string, string>()
     {
         {"Money", "10000" }
@@ -15,6 +11,10 @@ public class Property
     public static void AddMoney(BigInteger money)
     {
         Propertys["Money"] = BigInteger.Add(BigInteger.Parse(Propertys["Money"]), money).ToString();
+    }
+    public static void SetMoney(string money)
+    {
+        Propertys["Money"] = money;
     }
     public static bool SubtractMoney(BigInteger money)
     {

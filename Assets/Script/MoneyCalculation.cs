@@ -2,6 +2,7 @@ using System.Numerics;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Text;
 
 public class MoneyCalculation : MonoBehaviour
 {
@@ -42,11 +43,27 @@ public class MoneyCalculation : MonoBehaviour
         {
             Unit = TempUnit[0].ToString();
         }
-        if(Remainder.ToString() == "0")
+        StringBuilder remainder;
+        if (Remainder.ToString() == "0")
         {
             return $"{Quotient}{Unit}";
         }
-        return $"{Quotient}.{Remainder}{Unit}";
+        else
+        {
+            remainder = new StringBuilder(Remainder.ToString().PadLeft(4, '0'));
+            for(int i = 3; i > 0; i--)
+            {
+                if(remainder[i] == '0')
+                {
+                    remainder.Remove(i, 1);
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+        return $"{Quotient}.{remainder}{Unit}";
     }
     public static BigInteger EranMoney()
     {
@@ -75,11 +92,11 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static void Upgrade(string ProductName)
     {
-        try
+        if (Performance.IsProduct(ProductName))
         {
             Performance.Upgrade(ProductName);
         }
-        catch
+        else if (Skill.IsProduct(ProductName))
         {
             Skill.Upgrade(ProductName);
         }
