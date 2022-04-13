@@ -1,5 +1,5 @@
 돌 업그레이드
-단계당 세부 10단계
+단계당 세부 15단계
 세부 단계 증가할 때 마다 돌에 광석이 한개씩 박히게
 큰 단계는 광물의 종류가 바뀜
 광물 종류및 단계는 아래 기재(참고 : https://www.kores.net/komis/price/mineralprice/minormetals/pricetrend/minorMetals.do)
