@@ -15,7 +15,7 @@ D:/WorkSpace/Portfolio/Game/ClickToEarn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9820
+9257
 Successfully changed project path to: D:/WorkSpace/Portfolio/Game/ClickToEarn
 D:/WorkSpace/Portfolio/Game/ClickToEarn
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/WorkSpace/Portfolio/Game/ClickToEarn
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 29.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 30.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002780 seconds.
+Registered in 0.002852 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 29.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.393 seconds
+- Completed reload, in  0.365 seconds
 Domain Reload Profiling:
-	ReloadAssembly (394ms)
+	ReloadAssembly (365ms)
 		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (278ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (257ms)
 			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (65ms)
+			SetupTypeCache (62ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (165ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
+				RefreshPlugins (29ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001717 seconds.
+Registered in 0.001615 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 28.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.666 seconds
 Domain Reload Profiling:
-	ReloadAssembly (761ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (514ms)
-			LoadAssemblies (49ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (265ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (228ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 2820.
-Memory consumption went from 111.3 MB to 111.3 MB.
-Total: 2.272700 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.991400 ms  DeleteObjects: 0.064700 ms)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 2823.
+Memory consumption went from 114.5 MB to 114.4 MB.
+Total: 2.074400 ms (FindLiveObjects: 0.131300 ms CreateObjectMapping: 0.051600 ms MarkObjects: 1.829100 ms  DeleteObjects: 0.061600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,199 +163,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 459802.652523 seconds.
-  path: Assets/Prefab/Stones/Metal.png
-  artifactKey: Guid(ea9a66e81ce62a44e9551053e098e124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stones/Metal.png using Guid(ea9a66e81ce62a44e9551053e098e124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4829d1285921e15fef3b4599d33c1d9') in 0.080209 seconds 
+  Time since last request: 514909.214024 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7213b439d0d82037b45d0152df5d978b') in 0.016037 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 887.158806 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials
-  artifactKey: Guid(9068b2150b6234f47b565f5ad357dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials using Guid(9068b2150b6234f47b565f5ad357dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a341d35a0a63fe5d6bb7865b5e557ca3') in 0.007187 seconds 
+  Time since last request: 1229.416729 seconds.
+  path: Assets/Prefab/Stones/Crystal.png
+  artifactKey: Guid(09ff7c17959fe7045b18f98987937419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stones/Crystal.png using Guid(09ff7c17959fe7045b18f98987937419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a82dd95d46c60874de5debab5f6310d') in 0.240240 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (525ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2334 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 2832.
+Memory consumption went from 117.6 MB to 117.5 MB.
+Total: 1.963700 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.782600 ms  DeleteObjects: 0.011600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095735 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat
-  artifactKey: Guid(3c560b1c5b4a7c048ba5f9b87a27ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat using Guid(3c560b1c5b4a7c048ba5f9b87a27ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5d840957fae4d18c1f863e8528d418') in 0.288672 seconds 
+  Time since last request: 5464.528239 seconds.
+  path: Assets/Prefab/Stones/Crystal.png
+  artifactKey: Guid(09ff7c17959fe7045b18f98987937419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stones/Crystal.png using Guid(09ff7c17959fe7045b18f98987937419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620560316ee84ea04c0be2983a8c0565') in 0.141433 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat
-  artifactKey: Guid(fb0d97085daff70438b2a95dcef13a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat using Guid(fb0d97085daff70438b2a95dcef13a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb58a09de7b3eda8fdca265970bb406') in 0.073900 seconds 
+  Time since last request: 51.040587 seconds.
+  path: Assets/Prefab/Stones/Crystal.png
+  artifactKey: Guid(09ff7c17959fe7045b18f98987937419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stones/Crystal.png using Guid(09ff7c17959fe7045b18f98987937419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118eadeb1a53d425adc71ada2ed31cc3') in 0.127770 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat
-  artifactKey: Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat using Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7637edefce744e54bb1895313aafb5a8') in 0.077187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat
-  artifactKey: Guid(731960bee06a1174683f3e96b29f5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat using Guid(731960bee06a1174683f3e96b29f5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a7e028ee280202f6662eada5d5c9da') in 0.053615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Sandy.mat
-  artifactKey: Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Materials/Sandy.mat using Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3947a9f5149624832a613f20c3a783') in 0.086618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.326055 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Textures/Brown Stony Light.png
-  artifactKey: Guid(b1bf77c85bc87b44f8231605748c2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Textures/Brown Stony Light.png using Guid(b1bf77c85bc87b44f8231605748c2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701c3bcccd59c2a07664dcf18bc4d02a') in 0.008892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Textures/Sandy.png
-  artifactKey: Guid(fe1221309f0d1e04c88ed730fcb94d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Textures/Sandy.png using Guid(fe1221309f0d1e04c88ed730fcb94d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a859bd3829c58712b5a894850bef0093') in 0.011991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Textures/Grass.png
-  artifactKey: Guid(a4a961e41faaddd45a46183c4d69d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Five Seamless Tileable Ground Textures/Textures/Grass.png using Guid(a4a961e41faaddd45a46183c4d69d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef98d83c1151ab975b547c2f62f4108e') in 0.011709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.294640 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/FlyingCrystal_B.mat
-  artifactKey: Guid(13feaf1a1d060694087d9454e3b6861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/FlyingCrystal_B.mat using Guid(13feaf1a1d060694087d9454e3b6861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f9d8736ed15576df1afeac2b158271') in 0.120368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/SmallCrystal_Pink.mat
-  artifactKey: Guid(462896cafedab87489ad840bab5fc6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/SmallCrystal_Pink.mat using Guid(462896cafedab87489ad840bab5fc6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa787130cddda430d761fa146d7d27a') in 0.061941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/PurpCrystal.mat
-  artifactKey: Guid(f52afa762593fb144889e80e4f0fa1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/PurpCrystal.mat using Guid(f52afa762593fb144889e80e4f0fa1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0a1de05ebfc1d80e423e4e38effe0f') in 0.112023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/Hexahedral_RedCrystal.mat
-  artifactKey: Guid(3bb656496c36db64b8ecd970dcdf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/Hexahedral_RedCrystal.mat using Guid(3bb656496c36db64b8ecd970dcdf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e184096614c3451fd0a097f384e3d14') in 0.029486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/SmallCrystal_B.mat
-  artifactKey: Guid(60afee65205566544949ecb8f1dde9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/SmallCrystal_B.mat using Guid(60afee65205566544949ecb8f1dde9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0add01a74462021822c26f5f4a163d') in 0.028945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/GemStone_Red.mat
-  artifactKey: Guid(e0fa719f353ab4b46a34e0dcb178dc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/GemStone_Red.mat using Guid(e0fa719f353ab4b46a34e0dcb178dc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd4970bb0d474d125e4eb2b09b62ff4') in 0.055436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Materials/RedCrystal.mat
-  artifactKey: Guid(712bcc706d49fbf41ae3b84ee1b6443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Materials/RedCrystal.mat using Guid(712bcc706d49fbf41ae3b84ee1b6443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65cc03e5171405636e94ca3ec9e6c04') in 0.027337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.699618 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal02.fbx
-  artifactKey: Guid(457eca26206b82d4abb8b1726747e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal02.fbx using Guid(457eca26206b82d4abb8b1726747e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1225099641447294eceb6fa2b94d3a93') in 0.142322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/RedCrystal02.fbx
-  artifactKey: Guid(c0c21e6985d52594d8baa2df4f32573e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/RedCrystal02.fbx using Guid(c0c21e6985d52594d8baa2df4f32573e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7d91da4f8046ddf2b7e15119f351a') in 0.029077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/PurpCrystal05.fbx
-  artifactKey: Guid(7dcccdba733e9ac43a8438ecdef02267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/PurpCrystal05.fbx using Guid(7dcccdba733e9ac43a8438ecdef02267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34461348cc8ddcbe1337984d2aa0d4db') in 0.032858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/RedCrystal09.fbx
-  artifactKey: Guid(1376381bdad68174b8e538762d8d95f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/RedCrystal09.fbx using Guid(1376381bdad68174b8e538762d8d95f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dbc9ceaca4721e5ba8e69a4298fe55') in 0.030142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal12.fbx
-  artifactKey: Guid(e901c817f06c3894498d14a6b9b31ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal12.fbx using Guid(e901c817f06c3894498d14a6b9b31ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb4d8705408c1f63952342cc724ebe0') in 0.030926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/GemStone04.fbx
-  artifactKey: Guid(3384200d62d5e0f40a50626d10210fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/GemStone04.fbx using Guid(3384200d62d5e0f40a50626d10210fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d04030ec0b36dabbb98e03f82284a17') in 0.145719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/GemStone03.fbx
-  artifactKey: Guid(c9c1c6b4df1b6c34a81f5fa97630b07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/GemStone03.fbx using Guid(c9c1c6b4df1b6c34a81f5fa97630b07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac71a3bdce594c7ee0a9d4cc9064e40') in 0.024001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal13.fbx
-  artifactKey: Guid(8b9f6cf8c3bf7ef4c9d21174bb21a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal13.fbx using Guid(8b9f6cf8c3bf7ef4c9d21174bb21a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabd80838553fc3b26492021df96f0eb') in 0.092841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/PurpCrystal08.fbx
-  artifactKey: Guid(388f79398c5466c4d8c9da5438a8bd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/PurpCrystal08.fbx using Guid(388f79398c5466c4d8c9da5438a8bd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf348c0a38f6c7aa1a611fdae9fed95') in 0.028588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal14.fbx
-  artifactKey: Guid(cf0045aa15ef38d4f8a11c47f3a60400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Meshes/BlueCrystal14.fbx using Guid(cf0045aa15ef38d4f8a11c47f3a60400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318acd0ccbf73a52791ac19049861766') in 0.029527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.898106 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Particles/Fel Glow.prefab
-  artifactKey: Guid(fd373896c67a6fc4fbe263ecc2483250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Particles/Fel Glow.prefab using Guid(fd373896c67a6fc4fbe263ecc2483250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cfb186f475a1bc560d5c807d0d7237') in 0.030041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.495417 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Textures/FlyingCrystal_N.tga
-  artifactKey: Guid(0425168fb16a2cd4c88e15b9ceedcc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Textures/FlyingCrystal_N.tga using Guid(0425168fb16a2cd4c88e15b9ceedcc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fba49a0546e62d8127a55b4f9f98c91') in 0.357399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Textures/Rocks_Diff.tga
-  artifactKey: Guid(486ef4a0471074846bc9f97ac6df9023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Textures/Rocks_Diff.tga using Guid(486ef4a0471074846bc9f97ac6df9023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba3b777fb2d5d1c2be1e91f5849441e') in 0.016621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Textures/SmallCrystal_Green.tga
-  artifactKey: Guid(a46340c78bd212c42b56501606e9836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Textures/SmallCrystal_Green.tga using Guid(a46340c78bd212c42b56501606e9836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34775497b8be486639fb988e2666dba') in 0.019216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Textures/Obsidian.tga
-  artifactKey: Guid(05d191a1b424d2345928ce73e2e1a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Textures/Obsidian.tga using Guid(05d191a1b424d2345928ce73e2e1a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4348e00d7868e15c0646100aaa10dcad') in 0.018643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Shop/Texture/Toon Crystals pack/Textures/SmallCrystal_N.tga
-  artifactKey: Guid(d4d25a1a288c477429b22d30896cc3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop/Texture/Toon Crystals pack/Textures/SmallCrystal_N.tga using Guid(d4d25a1a288c477429b22d30896cc3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aa3358b617e94fc73759f36a748eca') in 0.012393 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1692ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1555ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (1343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (1119ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2334 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 2835.
+Memory consumption went from 117.7 MB to 117.6 MB.
+Total: 1.908900 ms (FindLiveObjects: 0.123600 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.730400 ms  DeleteObjects: 0.010700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
