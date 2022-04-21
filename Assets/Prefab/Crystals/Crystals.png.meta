@@ -131,10 +131,10 @@ TextureImporter:
       name: Crystals_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 17
-        width: 183
-        height: 345
+        x: 5
+        y: 0
+        width: 185
+        height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,9 +153,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 3
-        width: 244
-        height: 359
+        y: 0
+        width: 243
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: Crystals_2
       rect:
         serializedVersion: 2
-        x: 436
-        y: 3
-        width: 125
-        height: 359
+        x: 443
+        y: 0
+        width: 124
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Crystals_3
       rect:
         serializedVersion: 2
-        x: 576
-        y: 2
-        width: 267
-        height: 360
+        x: 584
+        y: 0
+        width: 224
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: Crystals_4
       rect:
         serializedVersion: 2
-        x: 843
-        y: 38
+        x: 807
+        y: 0
         width: 249
-        height: 324
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: Crystals_5
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 16
-        width: 189
-        height: 346
+        x: 1065
+        y: 0
+        width: 176
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,34 +254,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystals_6
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 26
-        width: 169
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a21b9288ccf71ce43b3d94cce493a25a
-      internalID: 235614639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Crystals_7
       rect:
         serializedVersion: 2
-        x: 1450
-        y: 62
-        width: 179
-        height: 300
+        x: 1245
+        y: 0
+        width: 189
+        height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +278,10 @@ TextureImporter:
       name: Crystals_8
       rect:
         serializedVersion: 2
-        x: 1629
-        y: 46
-        width: 155
-        height: 315
+        x: 1443
+        y: 0
+        width: 179
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +299,10 @@ TextureImporter:
       name: Crystals_9
       rect:
         serializedVersion: 2
-        x: 1784
-        y: 56
-        width: 191
-        height: 306
+        x: 1637
+        y: 0
+        width: 133
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,6 +312,27 @@ TextureImporter:
       bones: []
       spriteID: 75196e9e20f6f7d4dbd82798e46988f8
       internalID: 1562040710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystals_10
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 0
+        width: 191
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6953191a40d25d4dbb7c4db010d9ad5
+      internalID: 1802574210
       vertices: []
       indices: 
       edges: []
@@ -349,6 +349,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Crystals_2: 1291808728
+      Crystals_10: 1802574210
       Crystals_4: 67785232
       Crystals_5: 1297779789
       Crystals_0: 84242570
