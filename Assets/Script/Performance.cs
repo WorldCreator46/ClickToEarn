@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Numerics;
 using Newtonsoft.Json;
 using UnityEngine;
-using System.Linq;
 
 public class Performance : MonoBehaviour
 {

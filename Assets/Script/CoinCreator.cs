@@ -11,3 +11,4 @@ public class CoinCreator : MonoBehaviour
         Destroy(MoneyView, 0.2f);
     }
 }
+
