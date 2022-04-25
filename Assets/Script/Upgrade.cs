@@ -22,7 +22,6 @@ public class Upgrade : MonoBehaviour
         if (Property.SubtractMoney(Price))
         {
             MoneyCalculation.Upgrade(BuyProductName.text);
-            Property.SubtractMoney(Price);
             PanelCreate(true);
         }
         else

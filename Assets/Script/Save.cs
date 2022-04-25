@@ -7,17 +7,22 @@ public class Save : MonoBehaviour
 {
     public static char[] RandomLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=".ToCharArray();
     static string password = "";
+    static bool FirstStart = true;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private void Awake()
     {
-        LoadData();
+        if (FirstStart)
+        {
+            LoadData();
+            FirstStart = false;
+        }
     }
     void ResetData()
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
     }
-    void SaveData()
+    public static void SaveData()
     {
         PlayerPrefs.SetString("password", password);
         PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
@@ -51,7 +56,7 @@ public class Save : MonoBehaviour
         }
         return check;
     }
-    private string ExtractLetters()
+    private static string ExtractLetters()
     {
         StringBuilder temp = new StringBuilder();
         System.Random random = new System.Random();
@@ -61,7 +66,7 @@ public class Save : MonoBehaviour
         }
         return temp.ToString();
     }
-    private string Decrypt(string textToDecrypt)
+    private static string Decrypt(string textToDecrypt)
     {
         RijndaelManaged rijndaelCipher = new RijndaelManaged();
         rijndaelCipher.Mode = CipherMode.CBC;
@@ -82,7 +87,7 @@ public class Save : MonoBehaviour
         byte[] plainText = rijndaelCipher.CreateDecryptor().TransformFinalBlock(encryptedData, 0, encryptedData.Length);
         return Encoding.UTF8.GetString(plainText);
     }
-    public string Encrypt(string textToEncrypt)
+    public static string Encrypt(string textToEncrypt)
     {
         RijndaelManaged rijndaelCipher = new RijndaelManaged();
         rijndaelCipher.Mode = CipherMode.CBC;
