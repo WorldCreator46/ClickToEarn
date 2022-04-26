@@ -11,29 +11,28 @@ public class CrystalUpgrade : MonoBehaviour
     public Sprite[] Crystals;
     public GameObject TryUpgradePanel;
     public Text Explanation;
-    string[] CrystalNames =
+    Dictionary<string, int> CrystalGrade = new Dictionary<string, int>()
     {
-        "아쿠아마린",
-        "페리도트",
-        "토파즈",
-        "시트린",
-        "가넷",
-        "자수정",
-        "사파이어",
-        "루비",
-        "에메랄드",
-        "다이아몬드"
+        { "아쿠아마린", 0 },
+        { "페리도트", 1 },
+        { "토파즈", 2 },
+        { "시트린", 3 },
+        { "가넷", 4 },
+        { "자수정", 5 },
+        { "사파이어", 6 },
+        { "루비", 7 },
+        { "에메랄드", 8 },
+        { "다이아몬드", 9 }
     };
     private static Dictionary<string, string> CrystalState = new Dictionary<string, string>()
     {
         {"Name", "아쿠아마린" },
-        {"Grade", "0" },
         {"Class", "0" }
     };
     private void Start()
     {
+        OffTryUpgradePanel();
         SetCrystal();
-        SetExplanation();
     }
     public static void SetGrade(string grade)
     {
@@ -45,9 +44,16 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public void SetCrystal()
     {
-        int grade = int.Parse(CrystalState["Grade"]);
-        CrystalState["Name"] = CrystalNames[grade];
-        Crystal.sprite = Crystals[grade];
+        Crystal.sprite = Crystals[CrystalGrade[CrystalState["Name"]]];
+        SetExplanation();
+    }
+    public void OnTryUpgradePanel()
+    {
+        TryUpgradePanel.SetActive(true);
+    }
+    public void OffTryUpgradePanel()
+    {
+        TryUpgradePanel.SetActive(false);
     }
     public void SetExplanation()
     {
@@ -61,14 +67,15 @@ public class CrystalUpgrade : MonoBehaviour
         StringBuilder explanation = new StringBuilder();
         explanation.Append("현재 등급 : ");
         explanation.AppendLine(CrystalState["Name"]);
+        int Performance = (CrystalGrade[CrystalState["Name"]]+1) * (int.Parse(CrystalState["Class"])+1) * 5;
         explanation.Append("현재 성능 : ");
-        explanation.AppendLine(CrystalState["Name"] + "배");
+        explanation.AppendLine(Performance + "배");
         explanation.Append("강화 단계 : ");
-        explanation.AppendLine(CrystalState["Name"] + "단계");
+        explanation.AppendLine(CrystalState["Class"] + "단계");
         explanation.Append("강화 비용 : ");
-        explanation.AppendLine(CrystalState["Name"]);
+        explanation.AppendLine(MoneyCalculation.GetEnhanceCost(CrystalGrade[CrystalState["Name"]] + 1, int.Parse(CrystalState["Class"]) + 1));
         explanation.Append("강화 확률 : ");
-        explanation.Append(CrystalState["Name"] + "%");
+        explanation.Append((100 - (int.Parse(CrystalState["Class"]) * 10)) + "%");
         Explanation.text = explanation.ToString();
     }
 }

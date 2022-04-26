@@ -2,6 +2,7 @@ using System.Numerics;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System;
 using System.Text;
 
 public class MoneyCalculation : MonoBehaviour
@@ -100,5 +101,12 @@ public class MoneyCalculation : MonoBehaviour
         {
             Skill.Upgrade(ProductName);
         }
+    }
+    public static string GetEnhanceCost(int Grade, int Class)
+    {
+        BigInteger Cost = new BigInteger(1000000);
+        Cost = BigInteger.Multiply(Cost, BigInteger.Pow(BigInteger.Parse(Grade.ToString()), Grade));
+        Cost = BigInteger.Multiply(Cost, Class * 10);
+        return Convert(Cost.ToString());
     }
 }

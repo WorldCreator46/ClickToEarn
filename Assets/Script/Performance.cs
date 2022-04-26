@@ -10,11 +10,11 @@ public class Performance : MonoBehaviour
     {
         new List<string>(){ "곡괭이 날 강도 증가", "10", "2", "100", "0"},
         new List<string>(){ "곡괭이 자루 강도 증가", "10", "2", "100", "0"},
-        new List<string>(){ "곡괭이 날 재질 강화", "100000", "3", "10000", "0"},
-        new List<string>(){ "곡괭이 자루 재질 강화", "100000", "3", "10000", "0"},
-        new List<string>(){ "장갑 재질 강화", "1000000", "5", "500000", "0"},
-        new List<string>(){ "신발 재질 강화", "1000000", "5", "500000", "0"},
-        new List<string>(){ "안전모 재질 강화", "1000000", "5", "500000", "0"}
+        new List<string>(){ "곡괭이 날 재질 강화", "100000", "3", "1000", "0"},
+        new List<string>(){ "곡괭이 자루 재질 강화", "100000", "3", "1000", "0"},
+        new List<string>(){ "장갑 재질 강화", "1000000", "5", "50000", "0"},
+        new List<string>(){ "신발 재질 강화", "1000000", "5", "50000", "0"},
+        new List<string>(){ "안전모 재질 강화", "1000000", "5", "50000", "0"}
     };
     public static BigInteger GetMultiplicand()
     {
