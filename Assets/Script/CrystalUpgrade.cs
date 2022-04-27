@@ -11,7 +11,7 @@ public class CrystalUpgrade : MonoBehaviour
     public Sprite[] Crystals;
     public GameObject TryUpgradePanel;
     public Text Explanation;
-    Dictionary<string, int> CrystalGrade = new Dictionary<string, int>()
+    private Dictionary<string, int> CrystalGrade = new Dictionary<string, int>()
     {
         { "아쿠아마린", 0 },
         { "페리도트", 1 },
@@ -44,8 +44,12 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public void SetCrystal()
     {
-        Crystal.sprite = Crystals[CrystalGrade[CrystalState["Name"]]];
+        Crystal.sprite = Crystals[GetCrystalGrade()];
         SetExplanation();
+    }
+    public int GetCrystalGrade()
+    {
+        return CrystalGrade[CrystalState["Name"]];
     }
     public void OnTryUpgradePanel()
     {
@@ -73,7 +77,7 @@ public class CrystalUpgrade : MonoBehaviour
         explanation.Append("강화 단계 : ");
         explanation.AppendLine(CrystalState["Class"] + "단계");
         explanation.Append("강화 비용 : ");
-        explanation.AppendLine(MoneyCalculation.GetEnhanceCost(CrystalGrade[CrystalState["Name"]] + 1, int.Parse(CrystalState["Class"]) + 1));
+        explanation.AppendLine(MoneyCalculation.GetEnhanceCost(GetCrystalGrade() + 1, int.Parse(CrystalState["Class"]) + 1));
         explanation.Append("강화 확률 : ");
         explanation.Append((100 - (int.Parse(CrystalState["Class"]) * 10)) + "%");
         Explanation.text = explanation.ToString();

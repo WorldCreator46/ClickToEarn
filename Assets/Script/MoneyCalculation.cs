@@ -104,8 +104,8 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static string GetEnhanceCost(int Grade, int Class)
     {
-        BigInteger Cost = new BigInteger(1000000);
-        Cost = BigInteger.Multiply(Cost, BigInteger.Pow(BigInteger.Parse(Grade.ToString()), Grade));
+        BigInteger Cost = BigInteger.Multiply(BigInteger.Parse(Grade.ToString()), 1000000);
+        Cost = BigInteger.Multiply(Cost, BigInteger.Pow(BigInteger.Parse(Grade.ToString()), 10));
         Cost = BigInteger.Multiply(Cost, Class * 10);
         return Convert(Cost.ToString());
     }

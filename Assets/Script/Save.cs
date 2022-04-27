@@ -11,13 +11,14 @@ public class Save : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private void Awake()
     {
+        ResetData();
         if (FirstStart)
         {
             LoadData();
             FirstStart = false;
         }
     }
-    void ResetData()
+    public void ResetData()
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
