@@ -8,10 +8,10 @@ public class Save : MonoBehaviour
     public static char[] RandomLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=".ToCharArray();
     static string password = "";
     static bool FirstStart = true;
+    static bool SaveTF = true;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private void Awake()
     {
-        ResetData();
         if (FirstStart)
         {
             LoadData();
@@ -23,14 +23,30 @@ public class Save : MonoBehaviour
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
     }
-    public static void SaveData()
+    public void ResetAndStop()
     {
-        PlayerPrefs.SetString("password", password);
-        PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
-        PlayerPrefs.SetString("Skill", Encrypt(Skill.GetSkill()));
-        PlayerPrefs.SetString("Performance", Encrypt(Performance.GetPerformance()));
-        PlayerPrefs.SetString("CrystalGrade", Encrypt(CrystalUpgrade.GetGrade()));
-        PlayerPrefs.Save();
+        SaveTF = false;
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
+    }
+    public void SaveData()
+    {
+        if (SaveTF)
+        {
+            PlayerPrefs.SetString("password", password);
+            PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
+            PlayerPrefs.SetString("Skill", Encrypt(Skill.GetSkill()));
+            PlayerPrefs.SetString("Performance", Encrypt(Performance.GetPerformance()));
+            PlayerPrefs.SetString("CrystalGrade", Encrypt(CrystalUpgrade.GetGrade()));
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            ResetData();
+        }
     }
     void LoadData()
     {

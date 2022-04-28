@@ -102,8 +102,10 @@ public class MoneyCalculation : MonoBehaviour
             Skill.Upgrade(ProductName);
         }
     }
-    public static string GetEnhanceCost(int Grade, int Class)
+    public static string GetEnhanceCost()
     {
+        int Grade = CrystalUpgrade.GetCrystalGrade() + 1;
+        int Class = int.Parse(CrystalUpgrade.GetCrystalClass()) + 1;
         BigInteger Cost = BigInteger.Multiply(BigInteger.Parse(Grade.ToString()), 1000000);
         Cost = BigInteger.Multiply(Cost, BigInteger.Pow(BigInteger.Parse(Grade.ToString()), 10));
         Cost = BigInteger.Multiply(Cost, Class * 10);
