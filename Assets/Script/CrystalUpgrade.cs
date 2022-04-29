@@ -11,7 +11,9 @@ public class CrystalUpgrade : MonoBehaviour
     public Sprite[] Crystals;
     public GameObject TryUpgradePanel;
     public GameObject ResultPanel;
+    public Text ResultText;
     public Text Explanation;
+    public Text UpgradeOrEvolution;
     private static Dictionary<string, int> CrystalGrade = new Dictionary<string, int>()
     {
         { "아쿠아마린", 0 },
@@ -28,7 +30,8 @@ public class CrystalUpgrade : MonoBehaviour
     private static Dictionary<string, string> CrystalState = new Dictionary<string, string>()
     {
         {"Name", "아쿠아마린" },
-        {"Class", "0" }
+        {"Class", "0" },
+        {"Performance", "" }
     };
     private void Start()
     {
@@ -66,22 +69,55 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public void TryUpgrade()
     {
-
+        System.Random rand = new System.Random();
+        int Probability = rand.Next()%10;
+        if(GetCrystalClass() == "10")
+        {
+            TryEvolution();
+        }
+        if(Probability < GetProbability() / 10)
+        {
+            CrystalUpgradeSuccess();
+        }
+        else
+        {
+            ResultsPanel(false);
+        }
+        SetExplanation();
+    }
+    public void TryEvolution()
+    {
+        Debug.Log("진화!");
+    }
+    public void CrystalUpgradeSuccess()
+    {
+        CrystalState["Class"] = (int.Parse(GetCrystalClass()) + 1).ToString();
+        ResultsPanel(true);
+    }
+    public void CrystalEvolutionSuccess()
+    {
+        ResultsPanel(true);
     }
     public void ResultsPanel(bool result)
     {
         if (result)
         {
-
+            ResultText.text = "성공!";
         }
         else
         {
-
+            ResultText.text = "실패";
         }
+        ResultPanel.SetActive(true);
     }
     public int GetProbability()
     {
         return (100 - (int.Parse(GetCrystalClass()) * 10));
+    }
+    public int GetPerformance()
+    {
+        CrystalState["Performance"] = ((GetCrystalGrade() + 1) * (int.Parse(GetCrystalClass()) + 1) * 5).ToString();
+        return int.Parse(CrystalState["Performance"]);
     }
     public void SetExplanation()
     {
@@ -95,9 +131,8 @@ public class CrystalUpgrade : MonoBehaviour
         StringBuilder explanation = new StringBuilder();
         explanation.Append("현재 등급 : ");
         explanation.AppendLine(CrystalState["Name"]);
-        int Performance = (GetCrystalGrade() + 1) * (int.Parse(GetCrystalClass()) +1) * 5;
         explanation.Append("현재 성능 : ");
-        explanation.AppendLine(Performance + "배");
+        explanation.AppendLine(GetPerformance() + "배");
         explanation.Append("강화 단계 : ");
         explanation.AppendLine(GetCrystalClass() + "단계");
         explanation.Append("강화 비용 : ");
@@ -105,5 +140,13 @@ public class CrystalUpgrade : MonoBehaviour
         explanation.Append("강화 확률 : ");
         explanation.Append(GetProbability()+"%");
         Explanation.text = explanation.ToString();
+        if (GetCrystalClass() == "10")
+        {
+            UpgradeOrEvolution.text = "진화!";
+        }
+        else
+        {
+            UpgradeOrEvolution.text = "강화";
+        }
     }
 }
