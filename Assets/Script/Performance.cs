@@ -8,20 +8,22 @@ public class Performance : MonoBehaviour
     /* 리스트 구성 {"제품명", "초기가격", "가격 증가 폭", "성능 증가폭", "구매 횟수"}*/
     private static List<string>[] Performances = new List<string>[]
     {
-        new List<string>(){ "곡괭이 날 강도 증가", "10", "2", "100", "0"},
-        new List<string>(){ "곡괭이 자루 강도 증가", "10", "2", "100", "0"},
-        new List<string>(){ "곡괭이 날 재질 강화", "100000", "3", "1000", "0"},
-        new List<string>(){ "곡괭이 자루 재질 강화", "100000", "3", "1000", "0"},
-        new List<string>(){ "장갑 재질 강화", "1000000", "5", "50000", "0"},
-        new List<string>(){ "신발 재질 강화", "1000000", "5", "50000", "0"},
-        new List<string>(){ "안전모 재질 강화", "1000000", "5", "50000", "0"}
+        new List<string>(){ "곡괭이 날 강도 증가", "10", "2", "3", "0"},
+        new List<string>(){ "곡괭이 자루 강도 증가", "10", "2", "3", "0"},
+        new List<string>(){ "곡괭이 날 재질 강화", "100000", "2", "50000", "0"},
+        new List<string>(){ "곡괭이 자루 재질 강화", "100000", "2", "50000", "0"},
+        new List<string>(){ "장갑 재질 강화", "1000000", "2", "700000", "0"},
+        new List<string>(){ "신발 재질 강화", "1000000", "2", "700000", "0"},
+        new List<string>(){ "안전모 재질 강화", "1000000", "2", "700000", "0"}
     };
     public static BigInteger GetMultiplicand()
     {
         BigInteger result = BigInteger.Parse("1000");
         for (int idx = 0; idx < Performances.Length; idx++)
         {
-            result = BigInteger.Add(result, BigInteger.Multiply(BigInteger.Parse(Performances[idx][3]), BigInteger.Parse(Performances[idx][4])));
+            BigInteger Temp = BigInteger.Parse(Performances[idx][3]);
+            Temp = BigInteger.Multiply(Temp, BigInteger.Parse("2"));
+            result = BigInteger.Add(result, BigInteger.Multiply(Temp, BigInteger.Parse(Performances[idx][4])));
         }
         return result;
     }

@@ -987,6 +987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b95ebb96ec1c6e14ca94ed13ae08a7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  B: {fileID: 413082018}
 --- !u!1 &481277890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2420,7 @@ MonoBehaviour:
   ResultText: {fileID: 1296752011}
   Explanation: {fileID: 101208228}
   UpgradeOrEvolution: {fileID: 2011227495}
+  TryButton: {fileID: 1352990627}
 --- !u!82 &1401523115
 AudioSource:
   m_ObjectHideFlags: 0

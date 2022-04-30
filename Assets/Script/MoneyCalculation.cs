@@ -51,8 +51,8 @@ public class MoneyCalculation : MonoBehaviour
         }
         else
         {
-            remainder = new StringBuilder(Remainder.ToString().PadLeft(4, '0'));
-            for(int i = 3; i > 0; i--)
+            remainder = new StringBuilder(Remainder.ToString().PadLeft(3, '0'));
+            for(int i = 2; i > 0; i--)
             {
                 if(remainder[i] == '0')
                 {
@@ -69,7 +69,7 @@ public class MoneyCalculation : MonoBehaviour
     public static BigInteger EranMoney()
     {
         BigInteger result = BigInteger.Multiply(Performance.GetMultiplicand(), Skill.GetMultiplier());        
-        return BigInteger.Divide(result, BigInteger.Parse("100"));
+        return BigInteger.Multiply(result, BigInteger.Parse(CrystalUpgrade.GetPerformance()));
     }
     public static string GetEranMoney()
     {
@@ -104,11 +104,26 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static string GetEnhanceCost()
     {
-        int Grade = CrystalUpgrade.GetCrystalGrade() + 1;
+        BigInteger Grade = BigInteger.Multiply(BigInteger.Parse((CrystalUpgrade.GetCrystalGrade() + 1).ToString()), BigInteger.Parse(((CrystalUpgrade.GetCrystalGrade() + 1) * 100).ToString()));
         int Class = int.Parse(CrystalUpgrade.GetCrystalClass()) + 1;
-        BigInteger Cost = BigInteger.Multiply(BigInteger.Parse(Grade.ToString()), 1000000);
-        Cost = BigInteger.Multiply(Cost, BigInteger.Pow(BigInteger.Parse(Grade.ToString()), 10));
-        Cost = BigInteger.Multiply(Cost, Class * 10);
-        return Convert(Cost.ToString());
+        BigInteger Cost = BigInteger.Pow(Grade, Class);
+        return Cost.ToString();
+    }
+    public static bool CostComparison()
+    {
+        bool Cost = false;
+        switch(BigInteger.Compare(BigInteger.Parse(GetEnhanceCost()), BigInteger.Parse(Property.GetMoney(true))))
+        {
+            case -1:
+                Cost = true;
+                break;
+            case 0:
+                Cost = true;
+                break;
+            case 1:
+                Cost = false;
+                break;
+        }
+        return Cost;
     }
 }

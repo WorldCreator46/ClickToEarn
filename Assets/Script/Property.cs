@@ -6,7 +6,7 @@ public class Property
 {
     private static Dictionary<string, string> Propertys = new Dictionary<string, string>()
     {
-        {"Money", "100000000000000000000000000000000000000" }
+        {"Money", "10" }
     };
     public static void AddMoney(BigInteger money)
     {
@@ -32,6 +32,10 @@ public class Property
     public static string GetMoney()
     {
         return MoneyCalculation.Convert(Propertys["Money"]);
+    }
+    public static string GetMoney(object pass)
+    {
+        return Propertys["Money"];
     }
     public static void SetPropert(string code)
     {
