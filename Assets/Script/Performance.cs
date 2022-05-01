@@ -8,7 +8,7 @@ public class Performance : MonoBehaviour
     /* 리스트 구성 {"제품명", "초기가격", "가격 증가 폭", "성능 증가폭", "구매 횟수"}*/
     private static List<string>[] Performances = new List<string>[]
     {
-        new List<string>(){ "곡괭이 날 강도 증가", "10", "2", "3", "0"},
+        new List<string>(){ "곡괭이 날 강도 증가", "10", "2", "", "0"},
         new List<string>(){ "곡괭이 자루 강도 증가", "10", "2", "3", "0"},
         new List<string>(){ "곡괭이 날 재질 강화", "100000", "2", "50000", "0"},
         new List<string>(){ "곡괭이 자루 재질 강화", "100000", "2", "50000", "0"},
@@ -18,7 +18,7 @@ public class Performance : MonoBehaviour
     };
     public static BigInteger GetMultiplicand()
     {
-        BigInteger result = BigInteger.Parse("1000");
+        BigInteger result = BigInteger.Parse("10");
         for (int idx = 0; idx < Performances.Length; idx++)
         {
             BigInteger Temp = BigInteger.Parse(Performances[idx][3]);

@@ -2404,6 +2404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Crystal: {fileID: 481277892}
+  CrystalIMG: {fileID: 503628619}
   Crystals:
   - {fileID: 1802574210, guid: a34bab477d258614d8a447b807f2038e, type: 3}
   - {fileID: -92420135, guid: a34bab477d258614d8a447b807f2038e, type: 3}

@@ -8,6 +8,7 @@ using System.Text;
 public class CrystalUpgrade : MonoBehaviour
 {
     public Image Crystal;
+    public Image CrystalIMG;
     public Sprite[] Crystals;
     public GameObject TryUpgradePanel;
     public GameObject ResultPanel;
@@ -28,29 +29,24 @@ public class CrystalUpgrade : MonoBehaviour
         { "에메랄드", 8 },
         { "다이아몬드", 9 }
     };
+    private static List<string> CrystalNames = new List<string>(CrystalGrade.Keys);
     private static Dictionary<string, string> CrystalState = new Dictionary<string, string>()
     {
         {"Name", "아쿠아마린" },
-        {"Class", "0" },
-        {"Performance", "" }
+        {"Class", "0" }
     };
     private void Start()
     {
-        OffTryUpgradePanel();
-        SetCrystal();
+        OffTryUpgradePanel(); 
+        SetExplanation();
     }
-    public static void SetGrade(string grade)
+    public static void SetCrystalState(string grade)
     {
         CrystalState = JsonConvert.DeserializeObject<Dictionary<string,string>>(grade);
     }
-    public static string GetGrade()
+    public static string GetCrystalState()
     {
         return JsonConvert.SerializeObject(CrystalState);
-    }
-    public void SetCrystal()
-    {
-        Crystal.sprite = Crystals[GetCrystalGrade()];
-        SetExplanation();
     }
     public static int GetCrystalGrade()
     {
@@ -71,26 +67,38 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public void TryUpgrade()
     {
-        Property.SubtractMoney(System.Numerics.BigInteger.Parse(MoneyCalculation.GetEnhanceCost()));
+        Property.SubtractMoney(System.Numerics.BigInteger.Parse(MoneyCalculation.GetUpgradeCost()));
         System.Random rand = new System.Random();
         int Probability = rand.Next()%10;
         if(GetCrystalClass() == "10")
         {
             TryEvolution();
         }
-        if(Probability < GetProbability() / 10)
-        {
-            CrystalUpgradeSuccess();
-        }
         else
         {
-            ResultsPanel(false);
+            if (Probability < GetUpgradeProbability() / 10)
+            {
+                CrystalUpgradeSuccess();
+            }
+            else
+            {
+                ResultsPanel(false);
+            }
         }
         SetExplanation();
     }
     public void TryEvolution()
     {
-        Debug.Log("진화!");
+        System.Random rand = new System.Random();
+        int Probability = rand.Next() % 10;
+        if (Probability < GetEvolutionProbability() / 10)
+        {
+            CrystalEvolutionSuccess();
+        }
+        else
+        {
+            ResultsPanel(false);
+        }
     }
     public void CrystalUpgradeSuccess()
     {
@@ -99,6 +107,8 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public void CrystalEvolutionSuccess()
     {
+        CrystalState["Class"] = "0";
+        CrystalState["Name"] = CrystalNames[GetCrystalGrade() + 1];
         ResultsPanel(true);
     }
     public void ResultsPanel(bool result)
@@ -112,15 +122,35 @@ public class CrystalUpgrade : MonoBehaviour
             ResultText.text = "실패";
         }
         ResultPanel.SetActive(true);
+        Invoke("OffResultPanel", 0.4f);
     }
-    public int GetProbability()
+    public void OffResultPanel()
     {
-        return (100 - (int.Parse(GetCrystalClass()) * 10));
+        ResultPanel.SetActive(false);
+    }
+    public int GetUpgradeProbability()
+    {
+        return 100 - (int.Parse(GetCrystalClass()) * 10);
+    }
+    public int GetEvolutionProbability()
+    {
+        return 100 - GetCrystalGrade() * 10;
     }
     public static string GetPerformance()
     {
-        CrystalState["Performance"] = ((GetCrystalGrade() + 1) * (int.Parse(GetCrystalClass()) + 1) * 10).ToString();
-        return CrystalState["Performance"];
+        string Temp = (GetCrystalGrade() * 200 + (int.Parse(GetCrystalClass()) * 10)).ToString();
+        if(Temp == "0") Temp = "1";
+        if (CrystalState["Name"] == "다이아몬드" && GetCrystalClass() == "10")
+        {
+            Temp = "10000";
+        }
+        return Temp;
+    }
+    public bool TheLast()
+    {
+        bool result = false;
+        if(CrystalState["Name"] == "다이아몬드" && GetCrystalClass() == "10") result = true;
+        return result;
     }
     public void SetExplanation()
     {
@@ -131,6 +161,9 @@ public class CrystalUpgrade : MonoBehaviour
          * 강화 비용 : ?
          * 강화 확률 : ?%
          */
+        Crystal.sprite = Crystals[GetCrystalGrade()];
+        CrystalIMG.sprite = Crystals[GetCrystalGrade()];
+
         StringBuilder explanation = new StringBuilder();
         explanation.Append("현재 등급 : ");
         explanation.AppendLine(CrystalState["Name"]);
@@ -138,24 +171,42 @@ public class CrystalUpgrade : MonoBehaviour
         explanation.AppendLine(GetPerformance() + "배");
         explanation.Append("강화 단계 : ");
         explanation.AppendLine(GetCrystalClass() + "단계");
-        explanation.Append("강화 비용 : ");
-        explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetEnhanceCost()));
-        explanation.Append("강화 확률 : ");
-        explanation.Append(GetProbability()+"%");
-        Explanation.text = explanation.ToString();
-        if (MoneyCalculation.CostComparison())
+
+        if (TheLast())
         {
-            UpgradeOrEvolution.text = "강화";
-            TryButton.interactable = true;
-            if (GetCrystalClass() == "10")
-            {
-                UpgradeOrEvolution.text = "진화!";
-            }
+            TryButton.interactable = false;
+            UpgradeOrEvolution.text = "끝";
         }
         else
         {
-            TryButton.interactable = false;
-            UpgradeOrEvolution.text = "돈 없음";
+            if (GetCrystalClass() == "10")
+            {
+                explanation.Append("진화 비용 : ");
+                explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetEvolutionCost()));
+                explanation.Append("진화 확률 : ");
+                explanation.Append(GetEvolutionProbability() + "%");
+
+                UpgradeOrEvolution.text = "진화!";
+            }
+            else
+            {
+                explanation.Append("강화 비용 : ");
+                explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetUpgradeCost()));
+                explanation.Append("강화 확률 : ");
+                explanation.Append(GetUpgradeProbability() + "%");
+
+                UpgradeOrEvolution.text = "강화";
+            }
+            if (MoneyCalculation.CostComparison())
+            {
+                TryButton.interactable = true;
+            }
+            else
+            {
+                TryButton.interactable = false;
+                UpgradeOrEvolution.text = "돈 없음";
+            }
         }
+        Explanation.text = explanation.ToString();
     }
 }

@@ -40,7 +40,7 @@ public class Save : MonoBehaviour
             PlayerPrefs.SetString("Property", Encrypt(Property.GetProperty()));
             PlayerPrefs.SetString("Skill", Encrypt(Skill.GetSkill()));
             PlayerPrefs.SetString("Performance", Encrypt(Performance.GetPerformance()));
-            PlayerPrefs.SetString("CrystalGrade", Encrypt(CrystalUpgrade.GetGrade()));
+            PlayerPrefs.SetString("CrystalState", Encrypt(CrystalUpgrade.GetCrystalState()));
             PlayerPrefs.Save();
         }
         else
@@ -56,7 +56,7 @@ public class Save : MonoBehaviour
             Property.SetPropert(Decrypt(PlayerPrefs.GetString("Property")));
             Skill.SetSkill(Decrypt(PlayerPrefs.GetString("Skill")));
             Performance.SetPerformance(Decrypt(PlayerPrefs.GetString("Performance")));
-            CrystalUpgrade.SetGrade(Decrypt(PlayerPrefs.GetString("CrystalGrade")));
+            CrystalUpgrade.SetCrystalState(Decrypt(PlayerPrefs.GetString("CrystalState")));
         }
         else
         {
@@ -67,7 +67,7 @@ public class Save : MonoBehaviour
     bool CheckData()
     {
         bool check = false;
-        if (PlayerPrefs.HasKey("password") && PlayerPrefs.HasKey("Property") && PlayerPrefs.HasKey("Performance") && PlayerPrefs.HasKey("Skill") && PlayerPrefs.HasKey("CrystalGrade"))
+        if (PlayerPrefs.HasKey("password") && PlayerPrefs.HasKey("Property") && PlayerPrefs.HasKey("Performance") && PlayerPrefs.HasKey("Skill") && PlayerPrefs.HasKey("CrystalState"))
         {
             check = true;
         }

@@ -102,17 +102,35 @@ public class MoneyCalculation : MonoBehaviour
             Skill.Upgrade(ProductName);
         }
     }
-    public static string GetEnhanceCost()
+    public static string GetUpgradeCost()
     {
-        BigInteger Grade = BigInteger.Multiply(BigInteger.Parse((CrystalUpgrade.GetCrystalGrade() + 1).ToString()), BigInteger.Parse(((CrystalUpgrade.GetCrystalGrade() + 1) * 100).ToString()));
-        int Class = int.Parse(CrystalUpgrade.GetCrystalClass()) + 1;
-        BigInteger Cost = BigInteger.Pow(Grade, Class);
+        //.PadRight(0, '0');
+        StringBuilder Cost = new StringBuilder();
+        int Grade = CrystalUpgrade.GetCrystalGrade() + 1;
+        int Class = int.Parse(CrystalUpgrade.GetCrystalClass());
+        if (Grade % 2 != 0)
+        {
+            Cost.Append(1);
+        }
+        else
+        {
+            Cost.Append(5);
+        }
+        Cost.Append(Class);
+        if(Grade == 1) Grade *= 6;
+        else Grade *= 12;
+        Cost.Append("".PadRight(Grade, '0'));
+        Cost.Append("".PadRight(Class, '0'));
         return Cost.ToString();
+    }
+    public static string GetEvolutionCost()
+    {
+        return BigInteger.Multiply(BigInteger.Parse(GetUpgradeCost()), BigInteger.Parse("10")).ToString();
     }
     public static bool CostComparison()
     {
         bool Cost = false;
-        switch(BigInteger.Compare(BigInteger.Parse(GetEnhanceCost()), BigInteger.Parse(Property.GetMoney(true))))
+        switch(BigInteger.Compare(BigInteger.Parse(GetUpgradeCost()), BigInteger.Parse(Property.GetMoney(true))))
         {
             case -1:
                 Cost = true;

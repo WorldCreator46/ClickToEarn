@@ -6,7 +6,7 @@ public class Property
 {
     private static Dictionary<string, string> Propertys = new Dictionary<string, string>()
     {
-        {"Money", "10" }
+        {"Money", "0" }
     };
     public static void AddMoney(BigInteger money)
     {
