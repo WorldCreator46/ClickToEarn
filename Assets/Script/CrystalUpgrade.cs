@@ -138,13 +138,12 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public static string GetPerformance()
     {
-        string Temp = (GetCrystalGrade() * 200 + (int.Parse(GetCrystalClass()) * 10)).ToString();
-        if(Temp == "0") Temp = "1";
-        if (CrystalState["Name"] == "다이아몬드" && GetCrystalClass() == "10")
-        {
-            Temp = "10000";
-        }
-        return Temp;
+        StringBuilder Magnification = new StringBuilder();
+        int Class = int.Parse(GetCrystalClass()) + 1;
+        int Grade = GetCrystalGrade() * 2;
+        Magnification.Append(Class);
+        Magnification.Append("".PadRight(Grade, '0'));
+        return Magnification.ToString();
     }
     public bool TheLast()
     {
@@ -168,7 +167,7 @@ public class CrystalUpgrade : MonoBehaviour
         explanation.Append("현재 등급 : ");
         explanation.AppendLine(CrystalState["Name"]);
         explanation.Append("현재 성능 : ");
-        explanation.AppendLine(GetPerformance() + "배");
+        explanation.AppendLine(MoneyCalculation.Convert(GetPerformance()) + "배");
         explanation.Append("강화 단계 : ");
         explanation.AppendLine(GetCrystalClass() + "단계");
 

@@ -68,7 +68,7 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static BigInteger EranMoney()
     {
-        BigInteger result = BigInteger.Multiply(Performance.GetMultiplicand(), Skill.GetMultiplier());        
+        BigInteger result = BigInteger.Multiply(Performance.GetMultiplicand(), Skill.GetMultiplier());
         return BigInteger.Multiply(result, BigInteger.Parse(CrystalUpgrade.GetPerformance()));
     }
     public static string GetEranMoney()
@@ -106,9 +106,9 @@ public class MoneyCalculation : MonoBehaviour
     {
         //.PadRight(0, '0');
         StringBuilder Cost = new StringBuilder();
-        int Grade = CrystalUpgrade.GetCrystalGrade() + 1;
+        int Grade = CrystalUpgrade.GetCrystalGrade();
         int Class = int.Parse(CrystalUpgrade.GetCrystalClass());
-        if (Grade % 2 != 0)
+        if (Grade == 0 || Grade % 2 != 0)
         {
             Cost.Append(1);
         }
@@ -117,8 +117,8 @@ public class MoneyCalculation : MonoBehaviour
             Cost.Append(5);
         }
         Cost.Append(Class);
-        if(Grade == 1) Grade *= 6;
-        else Grade *= 12;
+        Grade *= 12;
+        Grade += 6;
         Cost.Append("".PadRight(Grade, '0'));
         Cost.Append("".PadRight(Class, '0'));
         return Cost.ToString();
