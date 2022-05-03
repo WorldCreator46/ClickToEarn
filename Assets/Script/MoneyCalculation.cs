@@ -68,7 +68,12 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static BigInteger EranMoney()
     {
-        BigInteger result = BigInteger.Multiply(Performance.GetMultiplicand(), Skill.GetMultiplier());
+        BigInteger performance = Performance.GetMultiplicand();
+        BigInteger skill = Skill.GetMultiplier();
+        BigInteger Temp = BigInteger.Multiply(performance, skill);
+        performance = BigInteger.Multiply(performance, BigInteger.Parse("100"));
+        BigInteger result = BigInteger.Add(performance, Temp);
+        result = BigInteger.Divide(result, BigInteger.Parse("100"));
         return BigInteger.Multiply(result, BigInteger.Parse(CrystalUpgrade.GetPerformance()));
     }
     public static string GetEranMoney()
@@ -84,8 +89,12 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static string GetPrice(string ProductName)
     {
-        string price = Performance.PriceCalculation(ProductName);
-        if (price == "")
+        string price = "";
+        if (Performance.IsProduct(ProductName))
+        {
+            price = Performance.PriceCalculation(ProductName);
+        }
+        else if (Skill.IsProduct(ProductName))
         {
             price = Skill.PriceCalculation(ProductName);
         }
@@ -123,6 +132,18 @@ public class MoneyCalculation : MonoBehaviour
         Cost.Append("".PadRight(Class, '0'));
         return Cost.ToString();
     }
+    public static string GetNumberOfPurchases(string ProductName)
+    {
+        if (Performance.IsProduct(ProductName))
+        {
+            return Performance.GetNumberOfPurchases(ProductName);
+        }
+        else if (Skill.IsProduct(ProductName))
+        {
+            return Skill.GetNumberOfPurchases(ProductName);
+        }
+        return "";
+    }
     public static string GetEvolutionCost()
     {
         return BigInteger.Multiply(BigInteger.Parse(GetUpgradeCost()), BigInteger.Parse("10")).ToString();
@@ -143,5 +164,18 @@ public class MoneyCalculation : MonoBehaviour
                 break;
         }
         return Cost;
+    }
+    public static string GetIncreaseValue(string ProductName)
+    {
+        string result = "";
+        if (Performance.IsProduct(ProductName))
+        {
+            result = Performance.GetIncreaseValue(ProductName);
+        }
+        else if (Skill.IsProduct(ProductName))
+        {
+            result = Skill.GetIncreaseValue(ProductName);
+        }
+        return Convert(result);
     }
 }

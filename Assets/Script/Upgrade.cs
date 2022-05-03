@@ -7,15 +7,9 @@ using UnityEngine.UI;
 public class Upgrade : MonoBehaviour
 {
     public Text[] ProductNames;
-    public Text[] Prices;
-    public Dictionary<string, BigInteger> Menu;
     public GameObject Panel;
     public Text PanelText;
 
-    private void Start()
-    {
-        SetPrices();
-    }
     public void Purchase(Text BuyProductName)
     {
         BigInteger Price = BigInteger.Parse(MoneyCalculation.GetPrice(BuyProductName.text));
@@ -28,7 +22,6 @@ public class Upgrade : MonoBehaviour
         {
             PanelCreate(false);
         }
-        SetPrices();
     }
     public void PanelCreate(bool tf)
     {
@@ -46,13 +39,5 @@ public class Upgrade : MonoBehaviour
     public void PanelActiveOff()
     {
         Panel.SetActive(false);
-    }
-    public void SetPrices()
-    {
-        Menu = MoneyCalculation.GetPriceMenu();
-        for (int i = 0; i < ProductNames.Length; i++)
-        {
-            Prices[i].text = "АЁАн : " + MoneyCalculation.Convert(Menu[ProductNames[i].text].ToString());
-        }
     }
 }

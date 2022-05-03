@@ -65,6 +65,7 @@
     <Compile Include="Assets\Script\Starter.cs" />
     <Compile Include="Assets\Script\Earn.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
+    <Compile Include="Assets\Script\ShopExplanation.cs" />
     <Compile Include="Assets\Script\MainSystem.cs" />
     <Compile Include="Assets\Script\CoinCreator.cs" />
     <Compile Include="Assets\Shop\Character\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
