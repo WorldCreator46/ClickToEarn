@@ -3,12 +3,12 @@ using UnityEngine.UI;
 
 public class ShopMoneyDisplay : MonoBehaviour
 {
-    Text t;
+    public Text t;
     private void Start()
     {
-        t = GetComponent<Text>();
+        SetMoney();
     }
-    void Update()
+    public void SetMoney()
     {
         t.text = Property.GetMoney();
     }
