@@ -74,6 +74,7 @@ public class MoneyCalculation : MonoBehaviour
         performance = BigInteger.Multiply(performance, BigInteger.Parse("100"));
         BigInteger result = BigInteger.Add(performance, Temp);
         result = BigInteger.Divide(result, BigInteger.Parse("100"));
+        result = BigInteger.Subtract(result, BigInteger.Parse("10"));
         return BigInteger.Multiply(result, BigInteger.Parse(CrystalUpgrade.GetPerformance()));
     }
     public static string GetEranMoney()
