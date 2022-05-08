@@ -2,7 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Earn : MonoBehaviour
 {
-    public Button B;
+    Button B;
+    private void Start()
+    {
+        B = GetComponent<Button>();
+    }
     public void TouchToEarn()
     {
         if (B.interactable)
