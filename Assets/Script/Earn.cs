@@ -11,7 +11,7 @@ public class Earn : MonoBehaviour
     {
         if (B.interactable)
         {
-            Property.AddMoney(MoneyCalculation.EranMoney());
+            Property.AddMoney(MoneyCalculation.EarnMoney());
             B.interactable = false;
             Invoke("Possibility", 0.08f);
         }

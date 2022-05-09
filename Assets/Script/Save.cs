@@ -103,7 +103,8 @@ public class Save : MonoBehaviour
         Array.Copy(pwdBytes, keyBytes, len);
         rijndaelCipher.Key = keyBytes;
         rijndaelCipher.IV = keyBytes;
-        byte[] plainText = rijndaelCipher.CreateDecryptor().TransformFinalBlock(encryptedData, 0, encryptedData.Length);
+        byte[] plainText = rijndaelCipher.CreateDecryptor()
+            .TransformFinalBlock(encryptedData, 0, encryptedData.Length);
         return Encoding.UTF8.GetString(plainText);
     }
     public static string Encrypt(string textToEncrypt)

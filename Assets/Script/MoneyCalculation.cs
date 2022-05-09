@@ -2,12 +2,11 @@ using System.Numerics;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-using System;
 using System.Text;
 
 public class MoneyCalculation : MonoBehaviour
 {
-    readonly static char[] Units = {'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
+    static char[] Units = {'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y' };
     public static string Convert(string _Money)
     {
         BigInteger Quotient = BigInteger.Parse(_Money);
@@ -66,7 +65,7 @@ public class MoneyCalculation : MonoBehaviour
         }
         return $"{Quotient}.{remainder}{Unit}";
     }
-    public static BigInteger EranMoney()
+    public static BigInteger EarnMoney()
     {
         BigInteger performance = Performance.GetMultiplicand();
         BigInteger skill = Skill.GetMultiplier();
@@ -79,7 +78,7 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static string GetEranMoney()
     {
-        return Convert(EranMoney().ToString());
+        return Convert(EarnMoney().ToString());
     }
     public static Dictionary<string,BigInteger> GetPriceMenu()
     {
