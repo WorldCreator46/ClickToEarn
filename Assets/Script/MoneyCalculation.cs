@@ -73,19 +73,11 @@ public class MoneyCalculation : MonoBehaviour
         performance = BigInteger.Multiply(performance, BigInteger.Parse("100"));
         BigInteger result = BigInteger.Add(performance, Temp);
         result = BigInteger.Divide(result, BigInteger.Parse("100"));
-        result = BigInteger.Subtract(result, BigInteger.Parse("10"));
         return BigInteger.Multiply(result, BigInteger.Parse(CrystalUpgrade.GetPerformance()));
     }
     public static string GetEranMoney()
     {
         return Convert(EarnMoney().ToString());
-    }
-    public static Dictionary<string,BigInteger> GetPriceMenu()
-    {
-        Dictionary<string, BigInteger> menu = new Dictionary<string, BigInteger>();
-        Performance.PriceCalculationMenu().ToList().ForEach(x => menu.Add(x.Key, x.Value));
-        Skill.PriceCalculationMenu().ToList().ForEach(x => menu.Add(x.Key, x.Value));
-        return menu;
     }
     public static string GetPrice(string ProductName)
     {
@@ -170,11 +162,11 @@ public class MoneyCalculation : MonoBehaviour
         string result = "";
         if (Performance.IsProduct(ProductName))
         {
-            result = Performance.GetIncreaseValue(ProductName);
+            result = Performance.GetIncreaseValue(ProductName).ToString();
         }
         else if (Skill.IsProduct(ProductName))
         {
-            result = Skill.GetIncreaseValue(ProductName);
+            result = Skill.GetIncreaseValue(ProductName).ToString();
         }
         return Convert(result);
     }
