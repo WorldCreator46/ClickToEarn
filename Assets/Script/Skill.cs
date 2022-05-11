@@ -6,16 +6,12 @@ using UnityEngine;
 public class Skill : MonoBehaviour
 {
     /* 리스트 구성 {"초기가격", "가격 증가 폭", "성능 증가 폭", "구매 횟수"}*/
-    private static List<string> GripStrength = new List<string>(){ "1000000", "2", "3", "0"};
-    private static List<string> Sight = new List<string>() { "1000000000", "2", "3", "0" };
-    private static List<string> MuscularStrength = new List<string>() { "1000000000000", "3", "4", "0" };
-    private static List<string> Stamina = new List<string>() { "1000000000000000", "3", "4", "0" };
     private static Dictionary<string, List<string>> Skills = new Dictionary<string, List<string>>()
     {
-        {"악력 증가", GripStrength },
-        {"시력 증가", Sight },
-        {"근력 증가", MuscularStrength },
-        {"체력 증가", Stamina }
+        {"악력 증가", new List<string>(){ "1000000", "2", "3", "0"} },
+        {"시력 증가", new List<string>() { "1000000000", "2", "3", "0" } },
+        {"근력 증가", new List<string>() { "1000000000000", "3", "4", "0" } },
+        {"체력 증가", new List<string>() { "1000000000000000", "3", "4", "0" } }
     };
     public static BigInteger GetMultiplier()
     {

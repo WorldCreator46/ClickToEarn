@@ -6,22 +6,15 @@ using UnityEngine;
 public class Performance : MonoBehaviour
 {
     /* 리스트 구성 {"초기가격", "가격 증가 폭", "성능 증가 폭", "구매 횟수"}*/
-    private static List<string> PickaxeBladeRobber = new List<string> { "10", "2", "1", "0" };
-    private static List<string> PickaxeGripRobber = new List<string> { "10", "2", "1", "0" };
-    private static List<string> PickaxeBladeQuality = new List<string> { "100000", "2", "12500", "0" };
-    private static List<string> PickaxeGripQuality = new List<string> { "100000", "2", "12500", "0" };
-    private static List<string> GlovesQuality = new List<string> { "1000000", "2", "150000", "0" };
-    private static List<string> ShoesQuality = new List<string> { "1000000", "2", "150000", "0" };
-    private static List<string> SafetyHelmetQuality = new List<string> { "1000000", "2", "150000", "0" };
     private static Dictionary<string, List<string>> Performances = new Dictionary<string, List<string>>()
     {
-        {"곡괭이 날 강도 증가",  PickaxeBladeRobber },
-        {"곡괭이 자루 강도 증가",  PickaxeGripRobber },
-        {"곡괭이 날 재질 강화",  PickaxeBladeQuality },
-        {"곡괭이 자루 재질 강화",  PickaxeGripQuality },
-        {"장갑 재질 강화",  GlovesQuality },
-        {"신발 재질 강화",  ShoesQuality },
-        {"안전모 재질 강화",  SafetyHelmetQuality }
+        {"곡괭이 날 강도 증가",  new List<string> { "10", "2", "1", "0" }},
+        {"곡괭이 자루 강도 증가",  new List<string> { "10", "2", "1", "0" } },
+        {"곡괭이 날 재질 강화",  new List<string> { "100000", "2", "12500", "0" } },
+        {"곡괭이 자루 재질 강화",  new List<string> { "100000", "2", "12500", "0" } },
+        {"장갑 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } },
+        {"신발 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } },
+        {"안전모 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } }
     };
     public static BigInteger GetMultiplicand()
     {
