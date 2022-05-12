@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Numerics;
 public class Earn : MonoBehaviour
 {
     Button B;

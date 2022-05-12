@@ -28,11 +28,11 @@ public class Performance : MonoBehaviour
     public static BigInteger GetIncreaseValue(string ProductName)
     {
         BigInteger value = BigInteger.Parse(Performances[ProductName][2]);
-        if (Performances[ProductName][3] == "0") { return BigInteger.Zero; }
-        for(int i = 1; i < int.Parse(Performances[ProductName][3]); i++)
-        {
-            value = BigInteger.Add(value, value);
-        }
+        if(Performances[ProductName][3] == "0") { return BigInteger.Zero; }
+        else if(Performances[ProductName][3] == "1") { return value;}
+        BigInteger Temp = MoneyCalculation.Pow(2, BigInteger.Parse(Performances[ProductName][3]));
+        Temp = BigInteger.Subtract(Temp, 1);
+        value = BigInteger.Multiply(value, Temp);
         return value;
     }
     public static string PriceCalculation(string ProductName)

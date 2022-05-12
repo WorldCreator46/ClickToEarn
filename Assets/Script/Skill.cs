@@ -24,15 +24,13 @@ public class Skill : MonoBehaviour
     }
     public static BigInteger GetIncreaseValue(string ProductName)
     {
-        BigInteger value = BigInteger.Parse(Skills[ProductName][3]);
-        BigInteger result = BigInteger.Zero;
+        BigInteger value = BigInteger.Parse(Skills[ProductName][2]);
         if (Skills[ProductName][3] == "0") { return BigInteger.Zero; }
-        for (int i = 0; i < int.Parse(Skills[ProductName][3]); i++)
-        {
-            result = BigInteger.Add(result, value);
-            value = BigInteger.Add(value, value);
-        }
-        return result;
+        else if (Skills[ProductName][3] == "1") { return value; }
+        BigInteger Temp = MoneyCalculation.Pow(2, BigInteger.Parse(Skills[ProductName][3]));
+        Temp = BigInteger.Subtract(Temp, 1);
+        value = BigInteger.Multiply(value, Temp);
+        return value;
     }
     public static string PriceCalculation(string ProductName)
     {

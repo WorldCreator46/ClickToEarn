@@ -1,7 +1,6 @@
 using System.Numerics;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 using System.Text;
 
 public class MoneyCalculation : MonoBehaviour
@@ -169,5 +168,19 @@ public class MoneyCalculation : MonoBehaviour
             result = Skill.GetIncreaseValue(ProductName).ToString();
         }
         return Convert(result);
+    }
+    public static BigInteger Pow(BigInteger Base, BigInteger exp)
+    {
+        BigInteger Result = BigInteger.One;
+        while(exp > 0)
+        {
+            if(!exp.IsEven)
+            {
+                Result = BigInteger.Multiply(Result, Base);
+            }
+            Base *= Base;
+            exp /= 2;
+        }
+        return Result;
     }
 }
