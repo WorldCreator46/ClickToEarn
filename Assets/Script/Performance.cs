@@ -37,7 +37,7 @@ public class Performance : MonoBehaviour
     }
     public static string PriceCalculation(string ProductName)
     {
-        return BigInteger.Multiply(BigInteger.Parse(Performances[ProductName][0]), BigInteger.Pow(BigInteger.Parse(Performances[ProductName][1]), int.Parse(Performances[ProductName][3]))).ToString();
+        return BigInteger.Multiply(BigInteger.Parse(Performances[ProductName][0]), MoneyCalculation.Pow(BigInteger.Parse(Performances[ProductName][1]), BigInteger.Parse(Performances[ProductName][3]))).ToString();
     }
     public static void Upgrade(string ProductName)
     {

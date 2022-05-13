@@ -34,7 +34,7 @@ public class Skill : MonoBehaviour
     }
     public static string PriceCalculation(string ProductName)
     {
-        return BigInteger.Multiply(BigInteger.Parse(Skills[ProductName][0]), BigInteger.Pow(BigInteger.Parse(Skills[ProductName][1]), int.Parse(Skills[ProductName][3]))).ToString();
+        return BigInteger.Multiply(BigInteger.Parse(Skills[ProductName][0]), MoneyCalculation.Pow(BigInteger.Parse(Skills[ProductName][1]), BigInteger.Parse(Skills[ProductName][3]))).ToString();
     }
     public static void Upgrade(string ProductName)
     {
