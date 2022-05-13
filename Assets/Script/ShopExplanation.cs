@@ -16,7 +16,7 @@ public class ShopExplanation : MonoBehaviour
         string productname = ProductName.text;
         StringBuilder Explanation = new StringBuilder();
         Explanation.Append("구매 횟수 : ");
-        Explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetNumberOfPurchases(productname)));
+        Explanation.AppendLine(MoneyCalculation.GetNumberOfPurchases(productname));
         Explanation.Append("증가 수치 : ");
         Explanation.AppendLine(MoneyCalculation.GetIncreaseValue(productname));
         Explanation.Append("가격 : ");

@@ -18,7 +18,7 @@ public class Skill : MonoBehaviour
         BigInteger result = BigInteger.Zero;
         foreach (string name in Skills.Keys)
         {
-            result = BigInteger.Add(result, GetIncreaseValue(name));
+            result += GetIncreaseValue(name);
         }
         return result;
     }
@@ -28,17 +28,19 @@ public class Skill : MonoBehaviour
         if (Skills[ProductName][3] == "0") { return BigInteger.Zero; }
         else if (Skills[ProductName][3] == "1") { return value; }
         BigInteger Temp = MoneyCalculation.Pow(2, BigInteger.Parse(Skills[ProductName][3]));
-        Temp = BigInteger.Subtract(Temp, 1);
-        value = BigInteger.Multiply(value, Temp);
+        Temp--;
+        value *= Temp;
         return value;
     }
     public static string PriceCalculation(string ProductName)
     {
-        return BigInteger.Multiply(BigInteger.Parse(Skills[ProductName][0]), MoneyCalculation.Pow(BigInteger.Parse(Skills[ProductName][1]), BigInteger.Parse(Skills[ProductName][3]))).ToString();
+        BigInteger result = BigInteger.Parse(Skills[ProductName][0]);
+        result *= MoneyCalculation.Pow(Skills[ProductName][1], Skills[ProductName][3]);
+        return result.ToString();
     }
     public static void Upgrade(string ProductName)
     {
-        Skills[ProductName][3] = (int.Parse(Skills[ProductName][3]) + 1).ToString();
+        Skills[ProductName][3] = (BigInteger.Parse(Skills[ProductName][3])+1).ToString();
     }
     public static void SetSkill(string code)
     {

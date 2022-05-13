@@ -68,11 +68,11 @@ public class MoneyCalculation : MonoBehaviour
     {
         BigInteger performance = Performance.GetMultiplicand();
         BigInteger skill = Skill.GetMultiplier();
-        BigInteger Temp = BigInteger.Multiply(performance, skill);
-        performance = BigInteger.Multiply(performance, BigInteger.Parse("100"));
-        BigInteger result = BigInteger.Add(performance, Temp);
+        BigInteger Temp = performance * skill;
+        performance *= BigInteger.Parse("100");
+        BigInteger result = performance + Temp;
         result = BigInteger.Divide(result, BigInteger.Parse("100"));
-        return BigInteger.Multiply(result, BigInteger.Parse(CrystalUpgrade.GetPerformance()));
+        return (result * BigInteger.Parse(CrystalUpgrade.GetPerformance()));
     }
     public static string GetEranMoney()
     {
@@ -127,17 +127,17 @@ public class MoneyCalculation : MonoBehaviour
     {
         if (Performance.IsProduct(ProductName))
         {
-            return Performance.GetNumberOfPurchases(ProductName);
+            return Convert(Performance.GetNumberOfPurchases(ProductName));
         }
         else if (Skill.IsProduct(ProductName))
         {
-            return Skill.GetNumberOfPurchases(ProductName);
+            return Convert(Skill.GetNumberOfPurchases(ProductName));
         }
         return "";
     }
     public static string GetEvolutionCost()
     {
-        return BigInteger.Multiply(BigInteger.Parse(GetUpgradeCost()), BigInteger.Parse("10")).ToString();
+        return Convert((BigInteger.Parse(GetUpgradeCost()) * BigInteger.Parse("10")).ToString());
     }
     public static bool CostComparison()
     {
@@ -176,11 +176,15 @@ public class MoneyCalculation : MonoBehaviour
         {
             if(!exp.IsEven)
             {
-                Result = BigInteger.Multiply(Result, Base);
+                Result *= Base;
             }
             Base *= Base;
             exp /= 2;
         }
         return Result;
+    }
+    public static BigInteger Pow(string Base, string exp)
+    {
+        return Pow(BigInteger.Parse(Base), BigInteger.Parse(exp));
     }
 }

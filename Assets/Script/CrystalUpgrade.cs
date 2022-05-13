@@ -184,7 +184,6 @@ public class CrystalUpgrade : MonoBehaviour
                 explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetEvolutionCost()));
                 explanation.Append("ÁøÈ­ È®·ü : ");
                 explanation.Append(GetEvolutionProbability() + "%");
-
                 UpgradeOrEvolution.text = "ÁøÈ­!";
             }
             else
@@ -193,7 +192,6 @@ public class CrystalUpgrade : MonoBehaviour
                 explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetUpgradeCost()));
                 explanation.Append("°­È­ È®·ü : ");
                 explanation.Append(GetUpgradeProbability() + "%");
-
                 UpgradeOrEvolution.text = "°­È­";
             }
             if (MoneyCalculation.CostComparison())
@@ -203,7 +201,7 @@ public class CrystalUpgrade : MonoBehaviour
             else
             {
                 TryButton.interactable = false;
-                UpgradeOrEvolution.text = "µ· ¾øÀ½";
+                UpgradeOrEvolution.text = "ÀÜ¾× ºÎÁ·";
             }
         }
         Explanation.text = explanation.ToString();

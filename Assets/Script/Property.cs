@@ -18,7 +18,7 @@ public class Property
     }
     public static bool SubtractMoney(BigInteger money)
     {
-        BigInteger temp = BigInteger.Subtract(BigInteger.Parse(Propertys["Money"]), money);
+        BigInteger temp = BigInteger.Parse(Propertys["Money"]) - money;
         if (temp >= BigInteger.Zero)
         {
             Propertys["Money"] = temp.ToString();
@@ -27,7 +27,7 @@ public class Property
         else
         {
             return false;
-        }            
+        }
     }
     public static string GetMoney()
     {

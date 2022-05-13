@@ -21,7 +21,7 @@ public class Performance : MonoBehaviour
         BigInteger result = BigInteger.Parse("1000");
         foreach(string name in Performances.Keys)
         {
-            result = BigInteger.Add(result, GetIncreaseValue(name));
+            result += GetIncreaseValue(name);
         }
         return result;
     }
@@ -31,17 +31,19 @@ public class Performance : MonoBehaviour
         if(Performances[ProductName][3] == "0") { return BigInteger.Zero; }
         else if(Performances[ProductName][3] == "1") { return value;}
         BigInteger Temp = MoneyCalculation.Pow(2, BigInteger.Parse(Performances[ProductName][3]));
-        Temp = BigInteger.Subtract(Temp, 1);
-        value = BigInteger.Multiply(value, Temp);
+        Temp--;
+        value *= Temp;
         return value;
     }
     public static string PriceCalculation(string ProductName)
     {
-        return BigInteger.Multiply(BigInteger.Parse(Performances[ProductName][0]), MoneyCalculation.Pow(BigInteger.Parse(Performances[ProductName][1]), BigInteger.Parse(Performances[ProductName][3]))).ToString();
+        BigInteger result = BigInteger.Parse(Performances[ProductName][0]);
+        result *= MoneyCalculation.Pow(Performances[ProductName][1], Performances[ProductName][3]);
+        return result.ToString();
     }
     public static void Upgrade(string ProductName)
     {
-        Performances[ProductName][3] = (int.Parse(Performances[ProductName][3]) + 1).ToString();
+        Performances[ProductName][3] = (BigInteger.Parse(Performances[ProductName][3]) + 1).ToString();
     }
     public static bool IsProduct(string ProductName)
     {
