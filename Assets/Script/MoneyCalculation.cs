@@ -64,19 +64,35 @@ public class MoneyCalculation : MonoBehaviour
         }
         return $"{Quotient}.{remainder}{Unit}";
     }
+    private static BigInteger EarnMoneyValue = BigInteger.Zero;
+    private static string EarnMoneyString = "";
+    private static string CheckString = "";
     public static BigInteger EarnMoney()
     {
-        BigInteger performance = Performance.GetMultiplicand();
-        BigInteger skill = Skill.GetMultiplier();
-        BigInteger Temp = performance * skill;
-        performance *= BigInteger.Parse("100");
-        BigInteger result = performance + Temp;
-        result = BigInteger.Divide(result, BigInteger.Parse("100"));
-        return (result * BigInteger.Parse(CrystalUpgrade.GetPerformance()));
+        if (CheckEarnMoney())
+        {
+            BigInteger performance = Performance.GetMultiplicand();
+            BigInteger skill = Skill.GetMultiplier();
+            BigInteger Temp = performance * skill;
+            performance *= BigInteger.Parse("100");
+            EarnMoneyValue = performance + Temp;
+            EarnMoneyValue = BigInteger.Divide(EarnMoneyValue, BigInteger.Parse("100"));
+            EarnMoneyValue *= BigInteger.Parse(CrystalUpgrade.GetPerformance());
+        }
+        return EarnMoneyValue;
     }
-    public static string GetEranMoney()
+    public static string GetEarnMoney()
     {
-        return Convert(EarnMoney().ToString());
+        if(CheckEarnMoney()) EarnMoneyString = Convert(EarnMoney().ToString());
+        return EarnMoneyString;
+    }
+    public static bool CheckEarnMoney()
+    {
+        bool Check = true;
+        string _CheckString = $"{Performance.GetPerformance()}{Skill.GetSkill()}";
+        if (CheckString.Equals(_CheckString) && !EarnMoneyValue.Equals("") && !EarnMoneyString.Equals("")) Check = false;
+        else CheckString = _CheckString;
+        return Check;
     }
     public static string GetPrice(string ProductName)
     {

@@ -69,14 +69,15 @@ public class CrystalUpgrade : MonoBehaviour
     {
         Property.SubtractMoney(System.Numerics.BigInteger.Parse(MoneyCalculation.GetUpgradeCost()));
         System.Random rand = new System.Random();
-        int Probability = rand.Next()%10;
-        if(GetCrystalClass() == "10")
+        int Probability = (rand.Next() % 100) - GetUpgradeProbability();
+        CheckProb(Probability);
+        if (GetCrystalClass() == "10")
         {
             TryEvolution();
         }
         else
         {
-            if (Probability < GetUpgradeProbability() / 10)
+            if (Probability < 1)
             {
                 CrystalUpgradeSuccess();
             }
@@ -90,8 +91,9 @@ public class CrystalUpgrade : MonoBehaviour
     public void TryEvolution()
     {
         System.Random rand = new System.Random();
-        int Probability = rand.Next() % 10;
-        if (Probability < GetEvolutionProbability() / 10)
+        int Probability = (rand.Next() % 100) - GetEvolutionProbability();
+        CheckProb(Probability);
+        if (Probability < 1)
         {
             CrystalEvolutionSuccess();
         }
@@ -99,6 +101,11 @@ public class CrystalUpgrade : MonoBehaviour
         {
             ResultsPanel(false);
         }
+    }
+    public void CheckProb(int t)
+    {
+        if (t < 1) Debug.Log($"{t} 성공");
+        else Debug.Log($"{t} 실패");
     }
     public void CrystalUpgradeSuccess()
     {
@@ -134,7 +141,7 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public int GetEvolutionProbability()
     {
-        return 100 - GetCrystalGrade() * 10;
+        return 10 - GetCrystalGrade();
     }
     public static string GetPerformance()
     {
@@ -181,7 +188,7 @@ public class CrystalUpgrade : MonoBehaviour
             if (GetCrystalClass() == "10")
             {
                 explanation.Append("진화 비용 : ");
-                explanation.AppendLine(MoneyCalculation.Convert(MoneyCalculation.GetEvolutionCost()));
+                explanation.AppendLine(MoneyCalculation.GetEvolutionCost());
                 explanation.Append("진화 확률 : ");
                 explanation.Append(GetEvolutionProbability() + "%");
                 UpgradeOrEvolution.text = "진화!";

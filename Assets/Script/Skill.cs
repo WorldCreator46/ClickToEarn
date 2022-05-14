@@ -11,7 +11,7 @@ public class Skill : MonoBehaviour
         {"악력 증가", new List<string>(){ "1000000", "2", "3", "0"} },
         {"시력 증가", new List<string>() { "1000000000", "2", "3", "0" } },
         {"근력 증가", new List<string>() { "1000000000000", "3", "4", "0" } },
-        {"체력 증가", new List<string>() { "1000000000000000", "3", "4", "0" } }
+        {"체력 증가", new List<string>() { "1000000000000000", "3", "4", "10" } }
     };
     public static BigInteger GetMultiplier()
     {

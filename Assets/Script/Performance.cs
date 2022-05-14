@@ -14,7 +14,7 @@ public class Performance : MonoBehaviour
         {"곡괭이 자루 재질 강화",  new List<string> { "100000", "2", "12500", "0" } },
         {"장갑 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } },
         {"신발 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } },
-        {"안전모 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } }
+        {"안전모 재질 강화",  new List<string> { "1000000", "2", "150000", "1000" } }
     };
     public static BigInteger GetMultiplicand()
     {

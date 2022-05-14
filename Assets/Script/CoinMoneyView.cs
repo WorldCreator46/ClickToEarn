@@ -6,6 +6,6 @@ public class CoinMoneyView : MonoBehaviour
     public Text t;
     private void Start()
     {
-        t.text = MoneyCalculation.GetEranMoney();
+        t.text = MoneyCalculation.GetEarnMoney();
     }
 }
