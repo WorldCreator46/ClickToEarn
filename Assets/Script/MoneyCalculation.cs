@@ -64,6 +64,10 @@ public class MoneyCalculation : MonoBehaviour
         }
         return $"{Quotient}.{remainder}{Unit}";
     }
+    public static string Convert(BigInteger _Money)
+    {
+        return Convert(_Money.ToString()); 
+    }
     private static BigInteger EarnMoneyValue = BigInteger.Zero;
     private static string EarnMoneyString = "";
     private static string CheckString = "";
@@ -76,14 +80,14 @@ public class MoneyCalculation : MonoBehaviour
             BigInteger Temp = performance * skill;
             performance *= BigInteger.Parse("100");
             EarnMoneyValue = performance + Temp;
-            EarnMoneyValue = BigInteger.Divide(EarnMoneyValue, BigInteger.Parse("100"));
-            EarnMoneyValue *= BigInteger.Parse(CrystalUpgrade.GetPerformance());
+            EarnMoneyValue /= BigInteger.Parse("100");
+            EarnMoneyValue *= CrystalUpgrade.GetPerformance();
         }
         return EarnMoneyValue;
     }
     public static string GetEarnMoney()
     {
-        if(CheckEarnMoney()) EarnMoneyString = Convert(EarnMoney().ToString());
+        if(CheckEarnMoney()) EarnMoneyString = Convert(EarnMoney());
         return EarnMoneyString;
     }
     public static bool CheckEarnMoney()
@@ -120,7 +124,6 @@ public class MoneyCalculation : MonoBehaviour
     }
     public static string GetUpgradeCost()
     {
-        //.PadRight(0, '0');
         StringBuilder Cost = new StringBuilder();
         int Grade = CrystalUpgrade.GetCrystalGrade();
         int Class = int.Parse(CrystalUpgrade.GetCrystalClass());

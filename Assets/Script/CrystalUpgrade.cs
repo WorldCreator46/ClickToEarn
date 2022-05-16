@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Text;
+using System.Numerics;
 
 public class CrystalUpgrade : MonoBehaviour
 {
@@ -67,10 +68,9 @@ public class CrystalUpgrade : MonoBehaviour
     }
     public void TryUpgrade()
     {
-        Property.SubtractMoney(System.Numerics.BigInteger.Parse(MoneyCalculation.GetUpgradeCost()));
+        Property.SubtractMoney(BigInteger.Parse(MoneyCalculation.GetUpgradeCost()));
         System.Random rand = new System.Random();
         int Probability = (rand.Next() % 100) - GetUpgradeProbability();
-        CheckProb(Probability);
         if (GetCrystalClass() == "10")
         {
             TryEvolution();
@@ -92,7 +92,6 @@ public class CrystalUpgrade : MonoBehaviour
     {
         System.Random rand = new System.Random();
         int Probability = (rand.Next() % 100) - GetEvolutionProbability();
-        CheckProb(Probability);
         if (Probability < 1)
         {
             CrystalEvolutionSuccess();
@@ -101,11 +100,6 @@ public class CrystalUpgrade : MonoBehaviour
         {
             ResultsPanel(false);
         }
-    }
-    public void CheckProb(int t)
-    {
-        if (t < 1) Debug.Log($"{t} 성공");
-        else Debug.Log($"{t} 실패");
     }
     public void CrystalUpgradeSuccess()
     {
@@ -143,14 +137,14 @@ public class CrystalUpgrade : MonoBehaviour
     {
         return 10 - GetCrystalGrade();
     }
-    public static string GetPerformance()
+    public static BigInteger GetPerformance()
     {
         StringBuilder Magnification = new StringBuilder();
         int Class = int.Parse(GetCrystalClass()) + 1;
         int Grade = GetCrystalGrade() * 2;
         Magnification.Append(Class);
         Magnification.Append("".PadRight(Grade, '0'));
-        return Magnification.ToString();
+        return BigInteger.Parse(Magnification.ToString());
     }
     public bool TheLast()
     {

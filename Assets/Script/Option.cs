@@ -13,8 +13,7 @@ public class Option : MonoBehaviour
     public AudioSource Back;
     private static Dictionary<string, int> Options = new Dictionary<string, int>()
     {
-        {"A", 1 },
-        {"B", 1 }
+        {"A", 1 }, {"B", 1 }
     };
     private void Start()
     {
