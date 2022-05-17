@@ -14,7 +14,7 @@ public class Performance : MonoBehaviour
         {"곡괭이 자루 재질 강화",  new List<string> { "100000", "2", "12500", "0" } },
         {"장갑 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } },
         {"신발 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } },
-        {"안전모 재질 강화",  new List<string> { "1000000", "2", "150000", "1000" } }
+        {"안전모 재질 강화",  new List<string> { "1000000", "2", "150000", "0" } }
     };
     public static BigInteger GetMultiplicand()
     {
@@ -30,8 +30,7 @@ public class Performance : MonoBehaviour
         BigInteger value = BigInteger.Parse(Performances[ProductName][2]);
         if(Performances[ProductName][3] == "0") { return BigInteger.Zero; }
         else if(Performances[ProductName][3] == "1") { return value;}
-        BigInteger Temp = MoneyCalculation.Pow(2, BigInteger.Parse(Performances[ProductName][3]));
-        Temp--;
+        BigInteger Temp = MoneyCalculation.Pow(2, BigInteger.Parse(Performances[ProductName][3])) - 1;
         value *= Temp;
         return value;
     }
